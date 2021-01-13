@@ -1,0 +1,494 @@
+Group {
+  DataVariance STATIC
+  nodeMask 0xffffffff
+  cullingActive TRUE
+  num_children 1
+  MatrixTransform {
+    UniqueID MatrixTransform_0
+    DataVariance STATIC
+    nodeMask 0xffffffff
+    cullingActive TRUE
+    referenceFrame RELATIVE
+    Matrix {
+      1 0 0 0
+      0 1 0 0
+      0 0 1 0
+      0 0 0 1
+    }
+    num_children 1
+    Geode {
+      DataVariance STATIC
+      name "i96173"
+      nodeMask 0xffffffff
+      cullingActive TRUE
+      num_drawables 4
+      Geometry {
+        DataVariance STATIC
+        StateSet {
+          rendering_hint DEFAULT_BIN
+          renderBinMode INHERIT
+          GL_CULL_FACE ON
+          GL_LIGHTING OFF
+          GL_BLEND OFF
+          Material {
+            ColorMode OFF
+            ambientColor 0.584314 0.584314 0.584314 1
+            diffuseColor 1 1 1 1
+            specularColor 0 0 0 1
+            emissionColor 0 0 0 1
+            shininess 12.5
+          }
+          CullFace {
+            mode BACK
+          }
+          textureUnit 0 {
+            GL_TEXTURE_2D ON
+            Texture2D {
+              file "i0800258_j.png"
+              wrap_s REPEAT
+              wrap_t CLAMP_TO_EDGE
+              wrap_r CLAMP
+              min_filter LINEAR_MIPMAP_LINEAR
+              mag_filter LINEAR
+              maxAnisotropy 1
+              borderColor 0 0 0 0
+              borderWidth 0
+              useHardwareMipMapGeneration TRUE
+              unRefImageDataAfterApply FALSE
+              internalFormatMode USE_IMAGE_DATA_FORMAT
+              resizeNonPowerOfTwo TRUE
+              shadowComparison FALSE
+              shadowCompareFunc GL_LEQUAL
+              shadowTextureMode GL_LUMINANCE
+            }
+          }
+          textureUnit 1 {
+            GL_TEXTURE_2D ON
+            Texture2D {
+              UniqueID Texture2D_1
+              file "i96173_m_tga_p.png"
+              wrap_s CLAMP_TO_EDGE
+              wrap_t CLAMP_TO_EDGE
+              wrap_r CLAMP
+              min_filter LINEAR_MIPMAP_LINEAR
+              mag_filter LINEAR
+              maxAnisotropy 1
+              borderColor 0 0 0 0
+              borderWidth 0
+              useHardwareMipMapGeneration TRUE
+              unRefImageDataAfterApply FALSE
+              internalFormatMode USE_IMAGE_DATA_FORMAT
+              resizeNonPowerOfTwo TRUE
+              shadowComparison FALSE
+              shadowCompareFunc GL_LEQUAL
+              shadowTextureMode GL_LUMINANCE
+            }
+          }
+        }
+        useDisplayList TRUE
+        useVertexBufferObjects FALSE
+        PrimitiveSets 1
+        {
+          DrawArrays TRIANGLES 0 6
+        }
+        VertexArray Vec3Array 6
+        {
+          14.9399 5.84033 0.0999985
+          -15.3201 4.76025 0
+          -15.3201 4.76025 3.604
+          -15.3201 4.76025 3.604
+          14.9399 5.84033 3.604
+          14.9399 5.84033 0.0999985
+        }
+        NormalBinding PER_VERTEX
+        NormalArray Vec3Array 6
+        {
+          -0.0356084 0.999366 0
+          -0.0356084 0.999366 0
+          -0.0356084 0.999366 0
+          -0.0356084 0.999366 0
+          -0.0356084 0.999366 0
+          -0.0356084 0.999366 0
+        }
+        TexCoordArray 0 Vec2Array 6
+        {
+          0.00299835 0.0282183
+          5.99702 0.000499725
+          5.99702 0.999501
+          5.99702 0.999501
+          0.00299835 0.999501
+          0.00299835 0.0282183
+        }
+        TexCoordArray 1 Vec2Array 6
+        {
+          0.962636 0.461594
+          0.0288907 0.464677
+          0.0288907 0.353531
+          0.0288907 0.353531
+          0.962636 0.353531
+          0.962636 0.461594
+        }
+      }
+      Geometry {
+        DataVariance STATIC
+        StateSet {
+          rendering_hint DEFAULT_BIN
+          renderBinMode INHERIT
+          GL_CULL_FACE ON
+          GL_LIGHTING OFF
+          GL_BLEND OFF
+          Material {
+            ColorMode OFF
+            ambientColor 0.584314 0.584314 0.584314 1
+            diffuseColor 1 1 1 1
+            specularColor 0 0 0 1
+            emissionColor 0 0 0 1
+            shininess 12.5
+          }
+          CullFace {
+            mode BACK
+          }
+          textureUnit 0 {
+            GL_TEXTURE_2D ON
+            Texture2D {
+              file "i0800256_j.png"
+              wrap_s REPEAT
+              wrap_t CLAMP_TO_EDGE
+              wrap_r CLAMP
+              min_filter LINEAR_MIPMAP_LINEAR
+              mag_filter LINEAR
+              maxAnisotropy 1
+              borderColor 0 0 0 0
+              borderWidth 0
+              useHardwareMipMapGeneration TRUE
+              unRefImageDataAfterApply FALSE
+              internalFormatMode USE_IMAGE_DATA_FORMAT
+              resizeNonPowerOfTwo TRUE
+              shadowComparison FALSE
+              shadowCompareFunc GL_LEQUAL
+              shadowTextureMode GL_LUMINANCE
+            }
+          }
+          textureUnit 1 {
+            GL_TEXTURE_2D ON
+            Use Texture2D_1
+          }
+        }
+        useDisplayList TRUE
+        useVertexBufferObjects FALSE
+        PrimitiveSets 1
+        {
+          DrawArrays TRIANGLES 0 24
+        }
+        VertexArray Vec3Array 24
+        {
+          15.3199 -4.75977 0.0999985
+          15.1299 0.450195 0.0999985
+          15.1299 0.450195 5
+          15.1299 0.450195 5
+          15.3199 -4.75977 3.604
+          15.3199 -4.75977 0.0999985
+          15.1299 0.450195 0.0999985
+          14.9399 5.84033 0.0999985
+          14.9399 5.84033 3.604
+          14.9399 5.84033 3.604
+          15.1299 0.450195 5
+          15.1299 0.450195 0.0999985
+          -15.3201 4.76025 0
+          -15.13 -0.619629 0
+          -15.13 -0.619629 5
+          -15.13 -0.619629 5
+          -15.3201 4.76025 3.604
+          -15.3201 4.76025 0
+          -15.13 -0.619629 0
+          -14.9401 -5.83984 0
+          -14.9401 -5.83984 3.604
+          -14.9401 -5.83984 3.604
+          -15.13 -0.619629 5
+          -15.13 -0.619629 0
+        }
+        NormalBinding PER_VERTEX
+        NormalArray Vec3Array 24
+        {
+          0.999366 0.0356047 -2.48965e-005
+          0.999366 0.0356047 -2.48965e-005
+          0.999366 0.0356047 -2.48965e-005
+          0.999367 0.0355813 0
+          0.999367 0.0355813 0
+          0.999367 0.0355813 0
+          0.999366 0.035601 0
+          0.999366 0.035601 0
+          0.999366 0.035601 0
+          0.999366 0.0356172 -2.48965e-005
+          0.999366 0.0356172 -2.48965e-005
+          0.999366 0.0356172 -2.48965e-005
+          -0.999365 -0.0356269 0
+          -0.999365 -0.0356269 0
+          -0.999365 -0.0356269 0
+          -0.999365 -0.0356269 -0
+          -0.999365 -0.0356269 -0
+          -0.999365 -0.0356269 -0
+          -0.999366 -0.0356047 3.38493e-005
+          -0.999366 -0.0356047 3.38493e-005
+          -0.999366 -0.0356047 3.38493e-005
+          -0.999365 -0.0356281 -0
+          -0.999365 -0.0356281 -0
+          -0.999365 -0.0356281 -0
+        }
+        TexCoordArray 0 Vec2Array 24
+        {
+          0.0010376 0.000499725
+          0.983826 0.000499725
+          0.983826 1
+          0.983826 1
+          0.0010376 1
+          0.0010376 0.000499725
+          0.983826 0.000499725
+          1.99902 0.000499725
+          1.99902 1
+          1.99902 1
+          0.983826 1
+          0.983826 0.000499725
+          0 0
+          1 0
+          1 1
+          1 1
+          0 1
+          0 0
+          0 0
+          1 0
+          1 1
+          1 1
+          0 1
+          0 0
+        }
+        TexCoordArray 1 Vec2Array 24
+        {
+          0.687426 0.736252
+          0.526604 0.736252
+          0.526604 0.585137
+          0.526604 0.585137
+          0.687426 0.628189
+          0.687426 0.736252
+          0.526604 0.736252
+          0.360479 0.736252
+          0.360479 0.628189
+          0.360479 0.628189
+          0.526604 0.585137
+          0.526604 0.736252
+          0.355823 0.739336
+          0.189712 0.739336
+          0.189712 0.585137
+          0.189712 0.585137
+          0.355823 0.628189
+          0.355823 0.739336
+          0.189712 0.739336
+          0.0288909 0.739336
+          0.0288907 0.628189
+          0.0288907 0.628189
+          0.189712 0.585137
+          0.189712 0.739336
+        }
+      }
+      Geometry {
+        DataVariance STATIC
+        StateSet {
+          rendering_hint DEFAULT_BIN
+          renderBinMode INHERIT
+          GL_CULL_FACE ON
+          GL_LIGHTING OFF
+          GL_BLEND OFF
+          Material {
+            ColorMode OFF
+            ambientColor 0.584314 0.584314 0.584314 1
+            diffuseColor 1 1 1 1
+            specularColor 0 0 0 1
+            emissionColor 0 0 0 1
+            shininess 12.5
+          }
+          CullFace {
+            mode BACK
+          }
+          textureUnit 0 {
+            GL_TEXTURE_2D ON
+            Texture2D {
+              file "i0800257_j.png"
+              wrap_s REPEAT
+              wrap_t CLAMP_TO_EDGE
+              wrap_r CLAMP
+              min_filter LINEAR_MIPMAP_LINEAR
+              mag_filter LINEAR
+              maxAnisotropy 1
+              borderColor 0 0 0 0
+              borderWidth 0
+              useHardwareMipMapGeneration TRUE
+              unRefImageDataAfterApply FALSE
+              internalFormatMode USE_IMAGE_DATA_FORMAT
+              resizeNonPowerOfTwo TRUE
+              shadowComparison FALSE
+              shadowCompareFunc GL_LEQUAL
+              shadowTextureMode GL_LUMINANCE
+            }
+          }
+          textureUnit 1 {
+            GL_TEXTURE_2D ON
+            Use Texture2D_1
+          }
+        }
+        useDisplayList TRUE
+        useVertexBufferObjects FALSE
+        PrimitiveSets 1
+        {
+          DrawArrays TRIANGLES 0 6
+        }
+        VertexArray Vec3Array 6
+        {
+          -14.9401 -5.83984 0
+          15.3199 -4.75977 0.0999985
+          15.3199 -4.75977 3.604
+          15.3199 -4.75977 3.604
+          -14.9401 -5.83984 3.604
+          -14.9401 -5.83984 0
+        }
+        NormalBinding PER_VERTEX
+        NormalArray Vec3Array 6
+        {
+          0.0355924 -0.999366 0
+          0.0355924 -0.999366 0
+          0.0355924 -0.999366 0
+          0.0355926 -0.999366 -1.20555e-006
+          0.0355926 -0.999366 -1.20555e-006
+          0.0355926 -0.999366 -1.20555e-006
+        }
+        TexCoordArray 0 Vec2Array 6
+        {
+          -0.0858765 0
+          2.08587 0
+          2.08587 0.9995
+          2.08587 0.9995
+          -0.0858765 0.9995
+          -0.0858765 0
+        }
+        TexCoordArray 1 Vec2Array 6
+        {
+          0.962631 0.580481
+          0.0288907 0.577397
+          0.0288907 0.469334
+          0.0288907 0.469334
+          0.962627 0.469334
+          0.962631 0.580481
+        }
+      }
+      Geometry {
+        DataVariance STATIC
+        StateSet {
+          rendering_hint DEFAULT_BIN
+          renderBinMode INHERIT
+          GL_CULL_FACE OFF
+          GL_LIGHTING OFF
+          GL_BLEND OFF
+          Material {
+            ColorMode OFF
+            ambientColor 0.694118 0.694118 0.694118 1
+            diffuseColor 1 1 1 1
+            specularColor 0 0 0 1
+            emissionColor 0 0 0 1
+            shininess 12.5
+          }
+          textureUnit 0 {
+            GL_TEXTURE_2D ON
+            Texture2D {
+              file "i96_h212_b.png"
+              wrap_s CLAMP_TO_EDGE
+              wrap_t CLAMP_TO_EDGE
+              wrap_r CLAMP
+              min_filter LINEAR_MIPMAP_LINEAR
+              mag_filter LINEAR
+              maxAnisotropy 1
+              borderColor 0 0 0 0
+              borderWidth 0
+              useHardwareMipMapGeneration TRUE
+              unRefImageDataAfterApply FALSE
+              internalFormatMode USE_IMAGE_DATA_FORMAT
+              resizeNonPowerOfTwo TRUE
+              shadowComparison FALSE
+              shadowCompareFunc GL_LEQUAL
+              shadowTextureMode GL_LUMINANCE
+            }
+          }
+          textureUnit 1 {
+            GL_TEXTURE_2D ON
+            Use Texture2D_1
+          }
+        }
+        useDisplayList TRUE
+        useVertexBufferObjects FALSE
+        PrimitiveSets 1
+        {
+          DrawArrays TRIANGLES 0 12
+        }
+        VertexArray Vec3Array 12
+        {
+          -14.9401 -5.83984 3.604
+          15.3199 -4.75977 3.604
+          15.1299 0.450195 5
+          15.1299 0.450195 5
+          14.9399 5.84033 3.604
+          -15.3201 4.76025 3.604
+          15.1299 0.450195 5
+          -15.3201 4.76025 3.604
+          -15.13 -0.619629 5
+          15.1299 0.450195 5
+          -15.13 -0.619629 5
+          -14.9401 -5.83984 3.604
+        }
+        NormalBinding PER_VERTEX
+        NormalArray Vec3Array 12
+        {
+          0.00920418 -0.258434 0.965985
+          0.00920418 -0.258434 0.965985
+          0.00920418 -0.258434 0.965985
+          -0.00893305 0.25071 0.968021
+          -0.00893305 0.25071 0.968021
+          -0.00893305 0.25071 0.968021
+          -0.00892976 0.250731 0.968016
+          -0.00892976 0.250731 0.968016
+          -0.00892976 0.250731 0.968016
+          0.00920409 -0.258434 0.965985
+          0.00920409 -0.258434 0.965985
+          0.00920409 -0.258434 0.965985
+        }
+        TexCoordArray 0 Vec2Array 12
+        {
+          0.078849 0
+          0.987239 0.4043
+          0.939197 0.700276
+          0.939197 0.700276
+          0.908679 0.997138
+          0 0.592952
+          0.939197 0.700276
+          0 0.592952
+          0.028122 0.294917
+          0.939197 0.700276
+          0.028122 0.294917
+          0.078849 0
+        }
+        TexCoordArray 1 Vec2Array 12
+        {
+          0.962629 0.348874
+          0.0288926 0.348874
+          0.0288907 0.18239
+          0.0288907 0.18239
+          0.0288959 0.0330488
+          0.962641 0.0330631
+          0.0288907 0.18239
+          0.962641 0.0330631
+          0.962635 0.18239
+          0.0288907 0.18239
+          0.962635 0.18239
+          0.962629 0.348874
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+newmtl material_82
+       Ka 0.694118 0.694118 0.694118 1
+       Kd 1 1 1 1
+       Ks 0 0 0 1
+       map_Kd i95_h172_b.png
+
+newmtl material_84
+       Ka 0.584314 0.584314 0.584314 1
+       Kd 1 1 1 1
+       Ks 0 0 0 1
+       map_Kd i9500008_j.png
+
+newmtl material_81
+       Ka 0.584314 0.584314 0.584314 1
+       Kd 1 1 1 1
+       Ks 0 0 0 1
+       map_Kd i9500096_j.png
+
+newmtl material_83
+       Ka 0.584314 0.584314 0.584314 1
+       Kd 1 1 1 1
+       Ks 0 0 0 1
+       map_Kd i9500002_j.png
+

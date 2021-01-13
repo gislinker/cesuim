@@ -1,0 +1,2406 @@
+Group {
+  DataVariance STATIC
+  nodeMask 0xffffffff
+  cullingActive TRUE
+  num_children 1
+  MatrixTransform {
+    UniqueID MatrixTransform_0
+    DataVariance STATIC
+    nodeMask 0xffffffff
+    cullingActive TRUE
+    referenceFrame RELATIVE
+    Matrix {
+      1 0 0 0
+      0 1 0 0
+      0 0 1 0
+      0 0 0 1
+    }
+    num_children 1
+    Geode {
+      DataVariance STATIC
+      name "i95083"
+      nodeMask 0xffffffff
+      cullingActive TRUE
+      num_drawables 12
+      Geometry {
+        DataVariance STATIC
+        StateSet {
+          rendering_hint DEFAULT_BIN
+          renderBinMode INHERIT
+          GL_CULL_FACE ON
+          GL_LIGHTING OFF
+          GL_BLEND OFF
+          Material {
+            ColorMode OFF
+            ambientColor 0.584314 0.584314 0.584314 1
+            diffuseColor 1 1 1 1
+            specularColor 0 0 0 1
+            emissionColor 0 0 0 1
+            shininess 12.5
+          }
+          CullFace {
+            mode BACK
+          }
+          textureUnit 0 {
+            GL_TEXTURE_2D ON
+            Texture2D {
+              file "i9500141_j.png"
+              wrap_s REPEAT
+              wrap_t CLAMP_TO_EDGE
+              wrap_r CLAMP
+              min_filter LINEAR_MIPMAP_LINEAR
+              mag_filter LINEAR
+              maxAnisotropy 1
+              borderColor 0 0 0 0
+              borderWidth 0
+              useHardwareMipMapGeneration TRUE
+              unRefImageDataAfterApply FALSE
+              internalFormatMode USE_IMAGE_DATA_FORMAT
+              resizeNonPowerOfTwo TRUE
+              shadowComparison FALSE
+              shadowCompareFunc GL_LEQUAL
+              shadowTextureMode GL_LUMINANCE
+            }
+          }
+          textureUnit 1 {
+            GL_TEXTURE_2D ON
+            Texture2D {
+              UniqueID Texture2D_1
+              file "i95083_m_tga_p.png"
+              wrap_s CLAMP_TO_EDGE
+              wrap_t CLAMP_TO_EDGE
+              wrap_r CLAMP
+              min_filter LINEAR_MIPMAP_LINEAR
+              mag_filter LINEAR
+              maxAnisotropy 1
+              borderColor 0 0 0 0
+              borderWidth 0
+              useHardwareMipMapGeneration TRUE
+              unRefImageDataAfterApply FALSE
+              internalFormatMode USE_IMAGE_DATA_FORMAT
+              resizeNonPowerOfTwo TRUE
+              shadowComparison FALSE
+              shadowCompareFunc GL_LEQUAL
+              shadowTextureMode GL_LUMINANCE
+            }
+          }
+        }
+        useDisplayList TRUE
+        useVertexBufferObjects FALSE
+        PrimitiveSets 1
+        {
+          DrawArrays TRIANGLES 0 48
+        }
+        VertexArray Vec3Array 48
+        {
+          -39.4572 5.18018 0
+          -39.4572 5.18018 7.731
+          -39.8721 17.0483 7.731
+          -39.8721 17.0483 7.731
+          -39.8721 17.0483 0
+          -39.4572 5.18018 0
+          -38.5951 -19.4746 0
+          -38.5951 -19.4746 7.731
+          -39.0292 -7.05859 7.731
+          -39.0292 -7.05859 7.731
+          -39.0292 -7.05859 0
+          -38.5951 -19.4746 0
+          -14.5646 -18.6343 0
+          -14.5646 -18.6343 7.731
+          -20.4404 -18.8398 7.731
+          -20.4404 -18.8398 7.731
+          -20.4404 -18.8394 0
+          -14.5646 -18.6343 0
+          15.9255 -17.5674 0
+          15.9255 -17.5674 7.731
+          9.37024 -17.7964 7.731
+          9.37024 -17.7964 7.731
+          9.37024 -17.7964 0
+          15.9255 -17.5674 0
+          39.46 -4.49512 0
+          39.46 -4.49512 7.731
+          39.6627 -10.2856 7.731
+          39.6627 -10.2856 7.731
+          39.6627 -10.2856 0
+          39.46 -4.49512 0
+          38.8083 14.1279 0
+          38.8083 14.1279 7.731
+          39.0272 7.87451 7.731
+          39.0272 7.87451 7.731
+          39.0272 7.87451 0
+          38.8083 14.1279 0
+          -21.8994 17.6772 0
+          -21.8994 17.6772 7.731
+          -15.5387 17.8994 7.731
+          -15.5387 17.8994 7.731
+          -15.5387 17.8994 0
+          -21.8994 17.6772 0
+          8.23535 18.7319 0
+          8.23535 18.7319 7.731
+          14.6826 18.957 7.731
+          14.6826 18.957 7.731
+          14.6826 18.957 0
+          8.23535 18.7319 0
+        }
+        NormalBinding PER_VERTEX
+        NormalArray Vec3Array 48
+        {
+          -0.999389 -0.0349431 -0
+          -0.999389 -0.0349431 -0
+          -0.999389 -0.0349431 -0
+          -0.999389 -0.0349431 0
+          -0.999389 -0.0349431 0
+          -0.999389 -0.0349431 0
+          -0.999389 -0.034943 -5.5524e-007
+          -0.999389 -0.034943 -5.5524e-007
+          -0.999389 -0.034943 -5.5524e-007
+          -0.999389 -0.0349434 0
+          -0.999389 -0.0349434 0
+          -0.999389 -0.0349434 0
+          0.0349647 -0.999389 -1.0379e-006
+          0.0349647 -0.999389 -1.0379e-006
+          0.0349647 -0.999389 -1.0379e-006
+          0.0349647 -0.999389 -1.0379e-006
+          0.0349647 -0.999389 -1.0379e-006
+          0.0349647 -0.999389 -1.0379e-006
+          0.0349653 -0.999389 -1.0379e-006
+          0.0349653 -0.999389 -1.0379e-006
+          0.0349653 -0.999389 -1.0379e-006
+          0.0349653 -0.999389 -1.0379e-006
+          0.0349653 -0.999389 -1.0379e-006
+          0.0349653 -0.999389 -1.0379e-006
+          0.999388 0.0349693 0
+          0.999388 0.0349693 0
+          0.999388 0.0349693 0
+          0.999388 0.0349693 0
+          0.999388 0.0349693 0
+          0.999388 0.0349693 0
+          0.999388 0.0349688 0
+          0.999388 0.0349688 0
+          0.999388 0.0349688 0
+          0.999388 0.0349714 2.07581e-006
+          0.999388 0.0349714 2.07581e-006
+          0.999388 0.0349714 2.07581e-006
+          -0.0349532 0.999389 -3.63002e-008
+          -0.0349532 0.999389 -3.63002e-008
+          -0.0349532 0.999389 -3.63002e-008
+          -0.0349532 0.999389 -3.63002e-008
+          -0.0349532 0.999389 -3.63002e-008
+          -0.0349532 0.999389 -3.63002e-008
+          -0.0349529 0.999389 0
+          -0.0349529 0.999389 0
+          -0.0349529 0.999389 0
+          -0.0349529 0.999389 0
+          -0.0349529 0.999389 0
+          -0.0349529 0.999389 0
+        }
+        TexCoordArray 0 Vec2Array 48
+        {
+          0.971675 0.000499547
+          0.971675 0.9995
+          0.0014981 0.9995
+          0.0014981 0.9995
+          0.0014981 0.000499547
+          0.971675 0.000499547
+          -1.98709 0.000499547
+          -1.98709 0.9995
+          -0.972116 0.9995
+          -0.972116 0.9995
+          -0.972116 0.000499547
+          -1.98709 0.000499547
+          2.00008 0.000499547
+          2.00008 0.9995
+          1.51671 0.9995
+          1.51671 0.9995
+          1.51671 0.000499547
+          2.00008 0.000499547
+          5.02831 0.000499547
+          5.02831 0.9995
+          4.48905 0.9995
+          4.48905 0.9995
+          4.48905 0.000499547
+          5.02831 0.000499547
+          1.00159 0.000499547
+          1.00159 0.9995
+          0.528187 0.9995
+          0.528187 0.9995
+          0.528187 0.000499547
+          1.00159 0.000499547
+          -1.52382 0.000499547
+          -1.52382 0.9995
+          -1.01267 0.9995
+          -1.01267 0.9995
+          -1.01267 0.000499547
+          -1.52382 0.000499547
+          5.00099 0.000499547
+          5.00099 0.9995
+          4.47772 0.9995
+          4.47772 0.9995
+          4.47772 0.000499547
+          5.00099 0.000499547
+          -1.52197 0.000499547
+          -1.52197 0.9995
+          -0.991604 0.9995
+          -0.991604 0.9995
+          -0.991604 0.000499547
+          -1.52197 0.000499547
+        }
+        TexCoordArray 1 Vec2Array 48
+        {
+          0.626308 0.151067
+          0.584849 0.151067
+          0.584849 0.00349837
+          0.584849 0.00349837
+          0.626308 0.00349837
+          0.626308 0.151067
+          0.626308 0.457622
+          0.584849 0.457622
+          0.584849 0.303239
+          0.584849 0.303239
+          0.626308 0.303239
+          0.626308 0.457622
+          0.537065 0.302286
+          0.495606 0.302286
+          0.495606 0.229227
+          0.495606 0.229227
+          0.537065 0.229227
+          0.537065 0.302286
+          0.537065 0.681389
+          0.495606 0.681389
+          0.495606 0.599883
+          0.495606 0.599883
+          0.537065 0.599883
+          0.537065 0.681389
+          0.626308 0.612904
+          0.584849 0.612904
+          0.584849 0.540896
+          0.584849 0.540896
+          0.626308 0.540896
+          0.626308 0.612904
+          0.626308 0.844442
+          0.584849 0.844442
+          0.584849 0.766693
+          0.584849 0.766693
+          0.626308 0.766693
+          0.626308 0.844442
+          0.581686 0.755854
+          0.540228 0.755854
+          0.540228 0.676766
+          0.540228 0.676766
+          0.581686 0.676766
+          0.581686 0.755854
+          0.581686 0.381167
+          0.540228 0.381167
+          0.540228 0.301005
+          0.540228 0.301005
+          0.581686 0.301005
+          0.581686 0.381167
+        }
+      }
+      Geometry {
+        DataVariance STATIC
+        StateSet {
+          rendering_hint DEFAULT_BIN
+          renderBinMode INHERIT
+          GL_CULL_FACE ON
+          GL_LIGHTING OFF
+          GL_BLEND OFF
+          Material {
+            ColorMode OFF
+            ambientColor 0.584314 0.584314 0.584314 1
+            diffuseColor 1 1 1 1
+            specularColor 0 0 0 1
+            emissionColor 0 0 0 1
+            shininess 12.5
+          }
+          CullFace {
+            mode BACK
+          }
+          textureUnit 0 {
+            GL_TEXTURE_2D ON
+            Texture2D {
+              file "i9500140_j.png"
+              wrap_s REPEAT
+              wrap_t CLAMP_TO_EDGE
+              wrap_r CLAMP
+              min_filter LINEAR_MIPMAP_LINEAR
+              mag_filter LINEAR
+              maxAnisotropy 1
+              borderColor 0 0 0 0
+              borderWidth 0
+              useHardwareMipMapGeneration TRUE
+              unRefImageDataAfterApply FALSE
+              internalFormatMode USE_IMAGE_DATA_FORMAT
+              resizeNonPowerOfTwo TRUE
+              shadowComparison FALSE
+              shadowCompareFunc GL_LEQUAL
+              shadowTextureMode GL_LUMINANCE
+            }
+          }
+          textureUnit 1 {
+            GL_TEXTURE_2D ON
+            Use Texture2D_1
+          }
+        }
+        useDisplayList TRUE
+        useVertexBufferObjects FALSE
+        PrimitiveSets 1
+        {
+          DrawArrays TRIANGLES 0 60
+        }
+        VertexArray Vec3Array 60
+        {
+          14.6826 18.957 0
+          14.6826 18.957 7.731
+          38.6101 19.7939 7.731
+          38.6101 19.7939 7.731
+          38.6101 19.7939 0
+          14.6826 18.957 0
+          -20.4404 -18.8394 0
+          -20.4404 -18.8398 7.731
+          -38.5951 -19.4746 7.731
+          -38.5951 -19.4746 7.731
+          -38.5951 -19.4746 0
+          -20.4404 -18.8394 0
+          39.6627 -10.2856 0
+          39.6627 -10.2856 7.731
+          39.8882 -16.729 7.731
+          39.8882 -16.729 7.731
+          39.8882 -16.729 0
+          39.6627 -10.2856 0
+          -39.0292 -7.05859 0
+          -39.0292 -7.05859 7.731
+          -39.4572 5.18018 7.731
+          -39.4572 5.18018 7.731
+          -39.4572 5.18018 0
+          -39.0292 -7.05859 0
+          9.37024 -17.7964 0
+          9.37024 -17.7964 7.731
+          -14.5646 -18.6343 7.731
+          -14.5646 -18.6343 7.731
+          -14.5646 -18.6343 0
+          9.37024 -17.7964 0
+          39.8882 -16.729 0
+          39.8882 -16.729 7.731
+          15.9255 -17.5674 7.731
+          15.9255 -17.5674 7.731
+          15.9255 -17.5674 0
+          39.8882 -16.729 0
+          39.0272 7.87451 0
+          39.0272 7.87451 7.731
+          39.46 -4.49512 7.731
+          39.46 -4.49512 7.731
+          39.46 -4.49512 0
+          39.0272 7.87451 0
+          38.6101 19.7939 0
+          38.6101 19.7939 7.731
+          38.8083 14.1279 7.731
+          38.8083 14.1279 7.731
+          38.8083 14.1279 0
+          38.6101 19.7939 0
+          -39.8721 17.0483 0
+          -39.8721 17.0483 7.731
+          -21.8994 17.6772 7.731
+          -21.8994 17.6772 7.731
+          -21.8994 17.6772 0
+          -39.8721 17.0483 0
+          -15.5387 17.8994 0
+          -15.5387 17.8994 7.731
+          8.23535 18.7319 7.731
+          8.23535 18.7319 7.731
+          8.23535 18.7319 0
+          -15.5387 17.8994 0
+        }
+        NormalBinding PER_VERTEX
+        NormalArray Vec3Array 60
+        {
+          -0.0349525 0.999389 0
+          -0.0349525 0.999389 0
+          -0.0349525 0.999389 0
+          -0.0349525 0.999389 0
+          -0.0349525 0.999389 0
+          -0.0349525 0.999389 0
+          0.0349651 -0.999389 -1.0379e-006
+          0.0349651 -0.999389 -1.0379e-006
+          0.0349651 -0.999389 -1.0379e-006
+          0.0349651 -0.999389 -1.01975e-006
+          0.0349651 -0.999389 -1.01975e-006
+          0.0349651 -0.999389 -1.01975e-006
+          0.999388 0.0349709 0
+          0.999388 0.0349709 0
+          0.999388 0.0349709 0
+          0.999388 0.0349697 -1.03791e-006
+          0.999388 0.0349697 -1.03791e-006
+          0.999388 0.0349697 -1.03791e-006
+          -0.999389 -0.0349426 -0
+          -0.999389 -0.0349426 -0
+          -0.999389 -0.0349426 -0
+          -0.999389 -0.0349426 0
+          -0.999389 -0.0349426 0
+          -0.999389 -0.0349426 0
+          0.034965 -0.999389 -1.0379e-006
+          0.034965 -0.999389 -1.0379e-006
+          0.034965 -0.999389 -1.0379e-006
+          0.034965 -0.999389 -1.0379e-006
+          0.034965 -0.999389 -1.0379e-006
+          0.034965 -0.999389 -1.0379e-006
+          0.0349654 -0.999389 -3.63129e-008
+          0.0349654 -0.999389 -3.63129e-008
+          0.0349654 -0.999389 -3.63129e-008
+          0.034965 -0.999389 -1.0379e-006
+          0.034965 -0.999389 -1.0379e-006
+          0.034965 -0.999389 -1.0379e-006
+          0.999388 0.0349705 2.07581e-006
+          0.999388 0.0349705 2.07581e-006
+          0.999388 0.0349705 2.07581e-006
+          0.999388 0.0349692 0
+          0.999388 0.0349692 0
+          0.999388 0.0349692 0
+          0.999388 0.0349686 0
+          0.999388 0.0349686 0
+          0.999388 0.0349686 0
+          0.999388 0.0349686 0
+          0.999388 0.0349686 0
+          0.999388 0.0349686 0
+          -0.0349523 0.999389 0
+          -0.0349523 0.999389 0
+          -0.0349523 0.999389 0
+          -0.0349523 0.999389 -3.62993e-008
+          -0.0349523 0.999389 -3.62993e-008
+          -0.0349523 0.999389 -3.62993e-008
+          -0.0349526 0.999389 -3.62996e-008
+          -0.0349526 0.999389 -3.62996e-008
+          -0.0349526 0.999389 -3.62996e-008
+          -0.0349526 0.999389 0
+          -0.0349526 0.999389 0
+          -0.0349526 0.999389 0
+        }
+        TexCoordArray 0 Vec2Array 60
+        {
+          1.9916 0.000499547
+          1.9916 0.9995
+          0.0232307 0.9995
+          0.0232307 0.9995
+          0.0232307 0.000499547
+          1.9916 0.000499547
+          1.51671 0.000499547
+          1.51671 0.9995
+          0.0232307 0.9995
+          0.0232307 0.9995
+          0.0232311 0.000499547
+          1.51671 0.000499547
+          0.528187 0.000499547
+          0.528187 0.9995
+          0.00149846 0.9995
+          0.00149846 0.9995
+          0.00149882 0.000499547
+          0.528187 0.000499547
+          1.97212 0.000499547
+          1.97212 0.9995
+          0.971675 0.9995
+          0.971675 0.9995
+          0.971675 0.000499547
+          1.97212 0.000499547
+          3.96905 0.000499547
+          3.96905 0.9995
+          2.00008 0.9995
+          2.00008 0.9995
+          2.00008 0.000499547
+          3.96905 0.000499547
+          6.47957 0.000499547
+          6.47957 0.9995
+          4.50831 0.9995
+          4.50831 0.9995
+          4.50831 0.000499547
+          6.47957 0.000499547
+          2.01267 0.000499547
+          2.01267 0.9995
+          1.00159 0.9995
+          1.00159 0.9995
+          1.00159 0.000499547
+          2.01267 0.000499547
+          2.98701 0.000499547
+          2.98701 0.9995
+          2.52382 0.9995
+          2.52382 0.9995
+          2.52382 0.000499547
+          2.98701 0.000499547
+          6.47949 0.000499547
+          6.47949 0.9995
+          5.00099 0.9995
+          5.00099 0.9995
+          5.00099 0.000499547
+          6.47949 0.000499547
+          4.47772 0.000499547
+          4.47772 0.9995
+          2.52197 0.9995
+          2.52197 0.9995
+          2.52197 0.000499547
+          4.47772 0.000499547
+        }
+        TexCoordArray 1 Vec2Array 60
+        {
+          0.581686 0.301005
+          0.540228 0.301005
+          0.540228 0.00349837
+          0.540228 0.00349837
+          0.581686 0.00349837
+          0.581686 0.301005
+          0.537065 0.229227
+          0.495606 0.229227
+          0.495606 0.00349837
+          0.495606 0.00349837
+          0.537065 0.00349842
+          0.537065 0.229227
+          0.626308 0.540896
+          0.584849 0.540896
+          0.584849 0.460785
+          0.584849 0.460785
+          0.626308 0.460785
+          0.626308 0.540896
+          0.626308 0.303239
+          0.584849 0.303239
+          0.584849 0.151067
+          0.584849 0.151067
+          0.626308 0.151067
+          0.626308 0.303239
+          0.537065 0.599883
+          0.495606 0.599883
+          0.495606 0.302286
+          0.495606 0.302286
+          0.537065 0.302286
+          0.537065 0.599883
+          0.537065 0.979331
+          0.495606 0.979331
+          0.495606 0.681389
+          0.495606 0.681389
+          0.537065 0.681389
+          0.537065 0.979331
+          0.626308 0.766693
+          0.584849 0.766693
+          0.584849 0.612904
+          0.584849 0.612904
+          0.626308 0.612904
+          0.626308 0.766693
+          0.626308 0.914896
+          0.584849 0.914896
+          0.584849 0.844442
+          0.584849 0.844442
+          0.626308 0.844442
+          0.626308 0.914896
+          0.581686 0.979319
+          0.540228 0.979319
+          0.540228 0.755854
+          0.540228 0.755854
+          0.581686 0.755854
+          0.581686 0.979319
+          0.581686 0.676766
+          0.540228 0.676766
+          0.540228 0.381167
+          0.540228 0.381167
+          0.581686 0.381167
+          0.581686 0.676766
+        }
+      }
+      Geometry {
+        DataVariance STATIC
+        StateSet {
+          rendering_hint DEFAULT_BIN
+          renderBinMode INHERIT
+          GL_CULL_FACE OFF
+          GL_LIGHTING OFF
+          GL_BLEND OFF
+          Material {
+            ColorMode OFF
+            ambientColor 0.694118 0.694118 0.694118 1
+            diffuseColor 1 1 1 1
+            specularColor 0 0 0 1
+            emissionColor 0 0 0 1
+            shininess 12.5
+          }
+          textureUnit 0 {
+            GL_TEXTURE_2D ON
+            Texture2D {
+              file "i95_h98_b.png"
+              wrap_s CLAMP_TO_EDGE
+              wrap_t CLAMP_TO_EDGE
+              wrap_r CLAMP
+              min_filter LINEAR_MIPMAP_LINEAR
+              mag_filter LINEAR
+              maxAnisotropy 1
+              borderColor 0 0 0 0
+              borderWidth 0
+              useHardwareMipMapGeneration TRUE
+              unRefImageDataAfterApply FALSE
+              internalFormatMode USE_IMAGE_DATA_FORMAT
+              resizeNonPowerOfTwo TRUE
+              shadowComparison FALSE
+              shadowCompareFunc GL_LEQUAL
+              shadowTextureMode GL_LUMINANCE
+            }
+          }
+          textureUnit 1 {
+            GL_TEXTURE_2D ON
+            Use Texture2D_1
+          }
+        }
+        useDisplayList TRUE
+        useVertexBufferObjects FALSE
+        PrimitiveSets 1
+        {
+          DrawArrays TRIANGLES 0 6
+        }
+        VertexArray Vec3Array 6
+        {
+          39.0723 6.59033 4.257
+          39.9521 6.61523 4.257
+          39.7332 14.5737 4.257
+          39.7332 14.5737 4.257
+          38.7939 14.5479 4.257
+          39.0723 6.59033 4.257
+        }
+        NormalBinding PER_VERTEX
+        NormalArray Vec3Array 6
+        {
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+        }
+        TexCoordArray 0 Vec2Array 6
+        {
+          0.799985 0
+          0.994171 0.025869
+          0.331221 0.995612
+          0.331221 0.995612
+          0.116058 0.968002
+          0.799985 0
+        }
+        TexCoordArray 1 Vec2Array 6
+        {
+          0.66254 0.314031
+          0.651603 0.314129
+          0.650629 0.215212
+          0.650629 0.215212
+          0.662304 0.215108
+          0.66254 0.314031
+        }
+      }
+      Geometry {
+        DataVariance STATIC
+        StateSet {
+          rendering_hint DEFAULT_BIN
+          renderBinMode INHERIT
+          GL_CULL_FACE OFF
+          GL_LIGHTING OFF
+          GL_BLEND OFF
+          Material {
+            ColorMode OFF
+            ambientColor 0.694118 0.694118 0.694118 1
+            diffuseColor 1 1 1 1
+            specularColor 0 0 0 1
+            emissionColor 0 0 0 1
+            shininess 12.5
+          }
+          textureUnit 0 {
+            GL_TEXTURE_2D ON
+            Texture2D {
+              file "i95_h97_b.png"
+              wrap_s CLAMP_TO_EDGE
+              wrap_t CLAMP_TO_EDGE
+              wrap_r CLAMP
+              min_filter LINEAR_MIPMAP_LINEAR
+              mag_filter LINEAR
+              maxAnisotropy 1
+              borderColor 0 0 0 0
+              borderWidth 0
+              useHardwareMipMapGeneration TRUE
+              unRefImageDataAfterApply FALSE
+              internalFormatMode USE_IMAGE_DATA_FORMAT
+              resizeNonPowerOfTwo TRUE
+              shadowComparison FALSE
+              shadowCompareFunc GL_LEQUAL
+              shadowTextureMode GL_LUMINANCE
+            }
+          }
+          textureUnit 1 {
+            GL_TEXTURE_2D ON
+            Use Texture2D_1
+          }
+        }
+        useDisplayList TRUE
+        useVertexBufferObjects FALSE
+        PrimitiveSets 1
+        {
+          DrawArrays TRIANGLES 0 6
+        }
+        VertexArray Vec3Array 6
+        {
+          40.618 -11.5156 4.257
+          40.2922 -3.35693 4.257
+          39.4213 -3.39111 4.257
+          39.4213 -3.39111 4.257
+          39.7065 -11.5513 4.257
+          40.618 -11.5156 4.257
+        }
+        NormalBinding PER_VERTEX
+        NormalArray Vec3Array 6
+        {
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+        }
+        TexCoordArray 0 Vec2Array 6
+        {
+          0.994149 0.0491374
+          0.299784 0.996516
+          0.1036 0.983173
+          0.1036 0.983173
+          0.784085 0.0345334
+          0.994149 0.0491374
+        }
+        TexCoordArray 1 Vec2Array 6
+        {
+          0.629471 0.320847
+          0.63352 0.219474
+          0.644342 0.219896
+          0.644342 0.219896
+          0.640796 0.321288
+          0.629471 0.320847
+        }
+      }
+      Geometry {
+        DataVariance STATIC
+        StateSet {
+          rendering_hint DEFAULT_BIN
+          renderBinMode INHERIT
+          GL_CULL_FACE OFF
+          GL_LIGHTING OFF
+          GL_BLEND OFF
+          Material {
+            ColorMode OFF
+            ambientColor 0.694118 0.694118 0.694118 1
+            diffuseColor 1 1 1 1
+            specularColor 0 0 0 1
+            emissionColor 0 0 0 1
+            shininess 12.5
+          }
+          textureUnit 0 {
+            GL_TEXTURE_2D ON
+            Texture2D {
+              file "i95_h96_b.png"
+              wrap_s CLAMP_TO_EDGE
+              wrap_t CLAMP_TO_EDGE
+              wrap_r CLAMP
+              min_filter LINEAR_MIPMAP_LINEAR
+              mag_filter LINEAR
+              maxAnisotropy 1
+              borderColor 0 0 0 0
+              borderWidth 0
+              useHardwareMipMapGeneration TRUE
+              unRefImageDataAfterApply FALSE
+              internalFormatMode USE_IMAGE_DATA_FORMAT
+              resizeNonPowerOfTwo TRUE
+              shadowComparison FALSE
+              shadowCompareFunc GL_LEQUAL
+              shadowTextureMode GL_LUMINANCE
+            }
+          }
+          textureUnit 1 {
+            GL_TEXTURE_2D ON
+            Use Texture2D_1
+          }
+        }
+        useDisplayList TRUE
+        useVertexBufferObjects FALSE
+        PrimitiveSets 1
+        {
+          DrawArrays TRIANGLES 0 6
+        }
+        VertexArray Vec3Array 6
+        {
+          16.8251 -18.4854 4.257
+          16.7957 -17.5371 4.257
+          8.63379 -17.8228 4.257
+          8.63379 -17.8228 4.257
+          8.66211 -18.7402 4.257
+          16.8251 -18.4854 4.257
+        }
+        NormalBinding PER_VERTEX
+        NormalArray Vec3Array 6
+        {
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+        }
+        TexCoordArray 0 Vec2Array 6
+        {
+          0.994038 0.668232
+          0.967049 0.982209
+          0 0.304034
+          0 0.304034
+          0.026145 0
+          0.994038 0.668232
+        }
+        TexCoordArray 1 Vec2Array 6
+        {
+          0.662412 0.105283
+          0.650629 0.104918
+          0.654181 0.00349837
+          0.654181 0.00349837
+          0.665583 0.0038506
+          0.662412 0.105283
+        }
+      }
+      Geometry {
+        DataVariance STATIC
+        StateSet {
+          rendering_hint DEFAULT_BIN
+          renderBinMode INHERIT
+          GL_CULL_FACE OFF
+          GL_LIGHTING OFF
+          GL_BLEND OFF
+          Material {
+            ColorMode OFF
+            ambientColor 0.694118 0.694118 0.694118 1
+            diffuseColor 1 1 1 1
+            specularColor 0 0 0 1
+            emissionColor 0 0 0 1
+            shininess 12.5
+          }
+          textureUnit 0 {
+            GL_TEXTURE_2D ON
+            Texture2D {
+              file "i95_h95_b.png"
+              wrap_s CLAMP_TO_EDGE
+              wrap_t CLAMP_TO_EDGE
+              wrap_r CLAMP
+              min_filter LINEAR_MIPMAP_LINEAR
+              mag_filter LINEAR
+              maxAnisotropy 1
+              borderColor 0 0 0 0
+              borderWidth 0
+              useHardwareMipMapGeneration TRUE
+              unRefImageDataAfterApply FALSE
+              internalFormatMode USE_IMAGE_DATA_FORMAT
+              resizeNonPowerOfTwo TRUE
+              shadowComparison FALSE
+              shadowCompareFunc GL_LEQUAL
+              shadowTextureMode GL_LUMINANCE
+            }
+          }
+          textureUnit 1 {
+            GL_TEXTURE_2D ON
+            Use Texture2D_1
+          }
+        }
+        useDisplayList TRUE
+        useVertexBufferObjects FALSE
+        PrimitiveSets 1
+        {
+          DrawArrays TRIANGLES 0 6
+        }
+        VertexArray Vec3Array 6
+        {
+          -13.234 -19.4443 4.257
+          -13.2708 -18.5889 4.257
+          -21.4161 -18.873 4.257
+          -21.4161 -18.873 4.257
+          -21.3781 -19.7939 4.257
+          -13.234 -19.4443 4.257
+        }
+        NormalBinding PER_VERTEX
+        NormalArray Vec3Array 6
+        {
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+        }
+        TexCoordArray 0 Vec2Array 6
+        {
+          0.994392 0.701519
+          0.968664 0.984567
+          0 0.304832
+          0 0.304832
+          0.02754 0
+          0.994392 0.701519
+        }
+        TexCoordArray 1 Vec2Array 6
+        {
+          0.668746 0.00385401
+          0.679382 0.00349837
+          0.683603 0.104685
+          0.683603 0.104685
+          0.672155 0.10509
+          0.668746 0.00385401
+        }
+      }
+      Geometry {
+        DataVariance STATIC
+        StateSet {
+          rendering_hint DEFAULT_BIN
+          renderBinMode INHERIT
+          GL_CULL_FACE OFF
+          GL_LIGHTING OFF
+          GL_BLEND OFF
+          Material {
+            ColorMode OFF
+            ambientColor 0.694118 0.694118 0.694118 1
+            diffuseColor 1 1 1 1
+            specularColor 0 0 0 1
+            emissionColor 0 0 0 1
+            shininess 12.5
+          }
+          textureUnit 0 {
+            GL_TEXTURE_2D ON
+            Texture2D {
+              file "i95_h94_b.png"
+              wrap_s CLAMP_TO_EDGE
+              wrap_t REPEAT
+              wrap_r CLAMP
+              min_filter LINEAR_MIPMAP_LINEAR
+              mag_filter LINEAR
+              maxAnisotropy 1
+              borderColor 0 0 0 0
+              borderWidth 0
+              useHardwareMipMapGeneration TRUE
+              unRefImageDataAfterApply FALSE
+              internalFormatMode USE_IMAGE_DATA_FORMAT
+              resizeNonPowerOfTwo TRUE
+              shadowComparison FALSE
+              shadowCompareFunc GL_LEQUAL
+              shadowTextureMode GL_LUMINANCE
+            }
+          }
+          textureUnit 1 {
+            GL_TEXTURE_2D ON
+            Use Texture2D_1
+          }
+        }
+        useDisplayList TRUE
+        useVertexBufferObjects FALSE
+        PrimitiveSets 1
+        {
+          DrawArrays TRIANGLES 0 6
+        }
+        VertexArray Vec3Array 6
+        {
+          -38.7712 -14.4307 4.257
+          -39.0621 -6.11426 4.257
+          -40.0922 -6.14697 4.257
+          -40.0922 -6.14697 4.257
+          -39.826 -14.4634 4.257
+          -38.7712 -14.4307 4.257
+        }
+        NormalBinding PER_VERTEX
+        NormalArray Vec3Array 6
+        {
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+        }
+        TexCoordArray 0 Vec2Array 6
+        {
+          0.872473 0.0727006
+          0.228968 1.00073
+          0.0561167 0.975573
+          0.0561167 0.975573
+          0.691768 0.0467639
+          0.872473 0.0727006
+        }
+        TexCoordArray 1 Vec2Array 6
+        {
+          0.629471 0.106842
+          0.633085 0.00349837
+          0.645884 0.00390821
+          0.645884 0.00390821
+          0.642578 0.107252
+          0.629471 0.106842
+        }
+      }
+      Geometry {
+        DataVariance STATIC
+        StateSet {
+          rendering_hint DEFAULT_BIN
+          renderBinMode INHERIT
+          GL_CULL_FACE OFF
+          GL_LIGHTING OFF
+          GL_BLEND OFF
+          Material {
+            ColorMode OFF
+            ambientColor 0.694118 0.694118 0.694118 1
+            diffuseColor 1 1 1 1
+            specularColor 0 0 0 1
+            emissionColor 0 0 0 1
+            shininess 12.5
+          }
+          textureUnit 0 {
+            GL_TEXTURE_2D ON
+            Texture2D {
+              file "i95_h93_b.png"
+              wrap_s CLAMP_TO_EDGE
+              wrap_t CLAMP_TO_EDGE
+              wrap_r CLAMP
+              min_filter LINEAR_MIPMAP_LINEAR
+              mag_filter LINEAR
+              maxAnisotropy 1
+              borderColor 0 0 0 0
+              borderWidth 0
+              useHardwareMipMapGeneration TRUE
+              unRefImageDataAfterApply FALSE
+              internalFormatMode USE_IMAGE_DATA_FORMAT
+              resizeNonPowerOfTwo TRUE
+              shadowComparison FALSE
+              shadowCompareFunc GL_LEQUAL
+              shadowTextureMode GL_LUMINANCE
+            }
+          }
+          textureUnit 1 {
+            GL_TEXTURE_2D ON
+            Use Texture2D_1
+          }
+        }
+        useDisplayList TRUE
+        useVertexBufferObjects FALSE
+        PrimitiveSets 1
+        {
+          DrawArrays TRIANGLES 0 6
+        }
+        VertexArray Vec3Array 6
+        {
+          -39.4039 3.66211 4.257
+          -39.6921 11.8994 4.257
+          -40.618 11.8706 4.257
+          -40.618 11.8706 4.257
+          -40.3511 3.63184 4.257
+          -39.4039 3.66211 4.257
+        }
+        NormalBinding PER_VERTEX
+        NormalArray Vec3Array 6
+        {
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+        }
+        TexCoordArray 0 Vec2Array 6
+        {
+          0.875626 0.0447109
+          0.221893 0.991203
+          0.0355406 0.981094
+          0.0355406 0.981094
+          0.682423 0.0338139
+          0.875626 0.0447109
+        }
+        TexCoordArray 1 Vec2Array 6
+        {
+          0.629471 0.214346
+          0.633052 0.111996
+          0.644557 0.112358
+          0.644557 0.112358
+          0.64124 0.21473
+          0.629471 0.214346
+        }
+      }
+      Geometry {
+        DataVariance STATIC
+        StateSet {
+          rendering_hint DEFAULT_BIN
+          renderBinMode INHERIT
+          GL_CULL_FACE OFF
+          GL_LIGHTING OFF
+          GL_BLEND OFF
+          Material {
+            ColorMode OFF
+            ambientColor 0.694118 0.694118 0.694118 1
+            diffuseColor 1 1 1 1
+            specularColor 0 0 0 1
+            emissionColor 0 0 0 1
+            shininess 12.5
+          }
+          textureUnit 0 {
+            GL_TEXTURE_2D ON
+            Texture2D {
+              file "i95_h92_b.png"
+              wrap_s CLAMP_TO_EDGE
+              wrap_t CLAMP_TO_EDGE
+              wrap_r CLAMP
+              min_filter LINEAR_MIPMAP_LINEAR
+              mag_filter LINEAR
+              maxAnisotropy 1
+              borderColor 0 0 0 0
+              borderWidth 0
+              useHardwareMipMapGeneration TRUE
+              unRefImageDataAfterApply FALSE
+              internalFormatMode USE_IMAGE_DATA_FORMAT
+              resizeNonPowerOfTwo TRUE
+              shadowComparison FALSE
+              shadowCompareFunc GL_LEQUAL
+              shadowTextureMode GL_LUMINANCE
+            }
+          }
+          textureUnit 1 {
+            GL_TEXTURE_2D ON
+            Use Texture2D_1
+          }
+        }
+        useDisplayList TRUE
+        useVertexBufferObjects FALSE
+        PrimitiveSets 1
+        {
+          DrawArrays TRIANGLES 0 6
+        }
+        VertexArray Vec3Array 6
+        {
+          -22.6833 17.6509 4.257
+          -14.5289 17.9351 4.257
+          -14.55 18.7441 4.257
+          -14.55 18.7441 4.257
+          -22.7061 18.5322 4.257
+          -22.6833 17.6509 4.257
+        }
+        NormalBinding PER_VERTEX
+        NormalArray Vec3Array 6
+        {
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+        }
+        TexCoordArray 0 Vec2Array 6
+        {
+          0.024776 0
+          0.996184 0.703068
+          0.973463 0.983388
+          0.973463 0.983388
+          0 0.305871
+          0.024776 0
+        }
+        TexCoordArray 1 Vec2Array 6
+        {
+          0.661592 0.318873
+          0.661836 0.420263
+          0.651783 0.420375
+          0.651783 0.420375
+          0.650629 0.319
+          0.661592 0.318873
+        }
+      }
+      Geometry {
+        DataVariance STATIC
+        StateSet {
+          rendering_hint DEFAULT_BIN
+          renderBinMode INHERIT
+          GL_CULL_FACE OFF
+          GL_LIGHTING OFF
+          GL_BLEND OFF
+          Material {
+            ColorMode OFF
+            ambientColor 0.694118 0.694118 0.694118 1
+            diffuseColor 1 1 1 1
+            specularColor 0 0 0 1
+            emissionColor 0 0 0 1
+            shininess 12.5
+          }
+          textureUnit 0 {
+            GL_TEXTURE_2D ON
+            Texture2D {
+              file "i95_h91_b.png"
+              wrap_s CLAMP_TO_EDGE
+              wrap_t CLAMP_TO_EDGE
+              wrap_r CLAMP
+              min_filter LINEAR_MIPMAP_LINEAR
+              mag_filter LINEAR
+              maxAnisotropy 1
+              borderColor 0 0 0 0
+              borderWidth 0
+              useHardwareMipMapGeneration TRUE
+              unRefImageDataAfterApply FALSE
+              internalFormatMode USE_IMAGE_DATA_FORMAT
+              resizeNonPowerOfTwo TRUE
+              shadowComparison FALSE
+              shadowCompareFunc GL_LEQUAL
+              shadowTextureMode GL_LUMINANCE
+            }
+          }
+          textureUnit 1 {
+            GL_TEXTURE_2D ON
+            Use Texture2D_1
+          }
+        }
+        useDisplayList TRUE
+        useVertexBufferObjects FALSE
+        PrimitiveSets 1
+        {
+          DrawArrays TRIANGLES 0 6
+        }
+        VertexArray Vec3Array 6
+        {
+          7.25598 18.6968 4.257
+          15.4961 18.9858 4.257
+          15.474 19.7896 4.257
+          15.474 19.7896 4.257
+          7.23108 19.5581 4.257
+          7.25598 18.6968 4.257
+        }
+        NormalBinding PER_VERTEX
+        NormalArray Vec3Array 6
+        {
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+        }
+        TexCoordArray 0 Vec2Array 6
+        {
+          0.0344282 0.0704281
+          0.987677 0.757744
+          0.972732 0.985562
+          0.972732 0.985562
+          0.0177094 0.31773
+          0.0344282 0.0704281
+        }
+        TexCoordArray 1 Vec2Array 6
+        {
+          0.640167 0.537756
+          0.640412 0.64021
+          0.630413 0.640309
+          0.630413 0.640309
+          0.629471 0.537846
+          0.640167 0.537756
+        }
+      }
+      Geometry {
+        DataVariance STATIC
+        StateSet {
+          rendering_hint DEFAULT_BIN
+          renderBinMode INHERIT
+          GL_CULL_FACE OFF
+          GL_LIGHTING OFF
+          GL_BLEND OFF
+          Material {
+            ColorMode OFF
+            ambientColor 0.694118 0.694118 0.694118 1
+            diffuseColor 1 1 1 1
+            specularColor 0 0 0 1
+            emissionColor 0 0 0 1
+            shininess 12.5
+          }
+          textureUnit 0 {
+            GL_TEXTURE_2D ON
+            Texture2D {
+              file "i95_h90_b.png"
+              wrap_s CLAMP_TO_EDGE
+              wrap_t CLAMP_TO_EDGE
+              wrap_r CLAMP
+              min_filter LINEAR_MIPMAP_LINEAR
+              mag_filter LINEAR
+              maxAnisotropy 1
+              borderColor 0 0 0 0
+              borderWidth 0
+              useHardwareMipMapGeneration TRUE
+              unRefImageDataAfterApply FALSE
+              internalFormatMode USE_IMAGE_DATA_FORMAT
+              resizeNonPowerOfTwo TRUE
+              shadowComparison FALSE
+              shadowCompareFunc GL_LEQUAL
+              shadowTextureMode GL_LUMINANCE
+            }
+          }
+          textureUnit 1 {
+            GL_TEXTURE_2D ON
+            Use Texture2D_1
+          }
+        }
+        useDisplayList TRUE
+        useVertexBufferObjects FALSE
+        PrimitiveSets 1
+        {
+          DrawArrays TRIANGLES 0 6
+        }
+        VertexArray Vec3Array 6
+        {
+          39.8882 -16.729 7.731
+          38.6101 19.7939 7.731
+          -39.8721 17.0483 7.731
+          -39.8721 17.0483 7.731
+          -38.5951 -19.4746 7.731
+          39.8882 -16.729 7.731
+        }
+        NormalBinding PER_VERTEX
+        NormalArray Vec3Array 6
+        {
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+          0 0 1
+        }
+        TexCoordArray 0 Vec2Array 6
+        {
+          0.999952 0.350675
+          0.898468 0.999038
+          0 0.651283
+          0 0.651283
+          0.102965 0
+          0.999952 0.350675
+        }
+        TexCoordArray 1 Vec2Array 6
+        {
+          0.458323 0.994603
+          0.00449004 0.978723
+          0.0385975 0.00349837
+          0.0385975 0.00349837
+          0.492443 0.0193668
+          0.458323 0.994603
+        }
+      }
+      Geometry {
+        DataVariance STATIC
+        StateSet {
+          rendering_hint DEFAULT_BIN
+          renderBinMode INHERIT
+          GL_CULL_FACE ON
+          GL_LIGHTING OFF
+          GL_BLEND OFF
+          Material {
+            ColorMode OFF
+            ambientColor 0.584314 0.584314 0.584314 1
+            diffuseColor 1 1 1 1
+            specularColor 0 0 0 1
+            emissionColor 0 0 0 1
+            shininess 12.5
+          }
+          CullFace {
+            mode BACK
+          }
+          textureUnit 0 {
+            GL_TEXTURE_2D ON
+            Texture2D {
+              file "i9500082_j.png"
+              wrap_s REPEAT
+              wrap_t REPEAT
+              wrap_r CLAMP
+              min_filter LINEAR_MIPMAP_LINEAR
+              mag_filter LINEAR
+              maxAnisotropy 1
+              borderColor 0 0 0 0
+              borderWidth 0
+              useHardwareMipMapGeneration TRUE
+              unRefImageDataAfterApply FALSE
+              internalFormatMode USE_IMAGE_DATA_FORMAT
+              resizeNonPowerOfTwo TRUE
+              shadowComparison FALSE
+              shadowCompareFunc GL_LEQUAL
+              shadowTextureMode GL_LUMINANCE
+            }
+          }
+          textureUnit 1 {
+            GL_TEXTURE_2D ON
+            Use Texture2D_1
+          }
+        }
+        useDisplayList TRUE
+        useVertexBufferObjects FALSE
+        PrimitiveSets 1
+        {
+          DrawArrays TRIANGLES 0 240
+        }
+        VertexArray Vec3Array 240
+        {
+          15.474 19.7896 4.257
+          15.4961 18.9858 4.257
+          15.4961 18.9858 4.03319
+          15.4961 18.9858 4.03319
+          15.474 19.7896 4.03319
+          15.474 19.7896 4.257
+          7.23108 19.5581 4.257
+          15.474 19.7896 4.257
+          15.474 19.7896 4.03319
+          15.474 19.7896 4.03319
+          7.23108 19.5581 4.03319
+          7.23108 19.5581 4.257
+          7.25598 18.6968 4.257
+          7.23108 19.5581 4.257
+          7.23108 19.5581 4.03319
+          7.23108 19.5581 4.03319
+          7.25598 18.6968 4.03319
+          7.25598 18.6968 4.257
+          15.4961 18.9858 4.257
+          7.25598 18.6968 4.257
+          7.25598 18.6968 4.03319
+          7.25598 18.6968 4.03319
+          15.4961 18.9858 4.03319
+          15.4961 18.9858 4.257
+          -14.55 18.7441 4.257
+          -14.5289 17.9351 4.257
+          -14.5289 17.9351 4.03319
+          -14.5289 17.9351 4.03319
+          -14.55 18.7441 4.03319
+          -14.55 18.7441 4.257
+          -22.7061 18.5322 4.257
+          -14.55 18.7441 4.257
+          -14.55 18.7441 4.03319
+          -14.55 18.7441 4.03319
+          -22.7061 18.5322 4.03319
+          -22.7061 18.5322 4.257
+          -22.6833 17.6509 4.257
+          -22.7061 18.5322 4.257
+          -22.7061 18.5322 4.03319
+          -22.7061 18.5322 4.03319
+          -22.6833 17.6509 4.03319
+          -22.6833 17.6509 4.257
+          -14.5289 17.9351 4.257
+          -22.6833 17.6509 4.257
+          -22.6833 17.6509 4.03319
+          -22.6833 17.6509 4.03319
+          -14.5289 17.9351 4.03319
+          -14.5289 17.9351 4.257
+          -40.618 11.8706 4.257
+          -39.6921 11.8994 4.257
+          -39.6921 11.8994 4.03319
+          -39.6921 11.8994 4.03319
+          -40.618 11.8706 4.03319
+          -40.618 11.8706 4.257
+          -40.3511 3.63184 4.257
+          -40.618 11.8706 4.257
+          -40.618 11.8706 4.03319
+          -40.618 11.8706 4.03319
+          -40.3511 3.63184 4.03319
+          -40.3511 3.63184 4.257
+          -39.4039 3.66211 4.257
+          -40.3511 3.63184 4.257
+          -40.3511 3.63184 4.03319
+          -40.3511 3.63184 4.03319
+          -39.4039 3.66211 4.03319
+          -39.4039 3.66211 4.257
+          -39.6921 11.8994 4.257
+          -39.4039 3.66211 4.257
+          -39.4039 3.66211 4.03319
+          -39.4039 3.66211 4.03319
+          -39.6921 11.8994 4.03319
+          -39.6921 11.8994 4.257
+          -40.0922 -6.14697 4.257
+          -39.0621 -6.11426 4.257
+          -39.0621 -6.11426 4.03319
+          -39.0621 -6.11426 4.03319
+          -40.0922 -6.14697 4.03319
+          -40.0922 -6.14697 4.257
+          -39.826 -14.4634 4.257
+          -40.0922 -6.14697 4.257
+          -40.0922 -6.14697 4.03319
+          -40.0922 -6.14697 4.03319
+          -39.826 -14.4634 4.03319
+          -39.826 -14.4634 4.257
+          -38.7712 -14.4307 4.257
+          -39.826 -14.4634 4.257
+          -39.826 -14.4634 4.03319
+          -39.826 -14.4634 4.03319
+          -38.7712 -14.4307 4.03319
+          -38.7712 -14.4307 4.257
+          -39.0621 -6.11426 4.257
+          -38.7712 -14.4307 4.257
+          -38.7712 -14.4307 4.03319
+          -38.7712 -14.4307 4.03319
+          -39.0621 -6.11426 4.03319
+          -39.0621 -6.11426 4.257
+          -21.4161 -18.873 4.257
+          -13.2708 -18.5889 4.257
+          -13.2709 -18.5889 4.03319
+          -13.2709 -18.5889 4.03319
+          -21.4161 -18.873 4.03319
+          -21.4161 -18.873 4.257
+          -21.3781 -19.7939 4.257
+          -21.4161 -18.873 4.257
+          -21.4161 -18.873 4.03319
+          -21.4161 -18.873 4.03319
+          -21.3781 -19.7939 4.03319
+          -21.3781 -19.7939 4.257
+          -13.234 -19.4443 4.257
+          -21.3781 -19.7939 4.257
+          -21.3781 -19.7939 4.03319
+          -21.3781 -19.7939 4.03319
+          -13.234 -19.4443 4.03319
+          -13.234 -19.4443 4.257
+          -13.2708 -18.5889 4.257
+          -13.234 -19.4443 4.257
+          -13.234 -19.4443 4.03319
+          -13.234 -19.4443 4.03319
+          -13.2709 -18.5889 4.03319
+          -13.2708 -18.5889 4.257
+          8.63379 -17.8228 4.257
+          16.7957 -17.5371 4.257
+          16.7957 -17.5371 4.03319
+          16.7957 -17.5371 4.03319
+          8.63379 -17.8228 4.03319
+          8.63379 -17.8228 4.257
+          8.66211 -18.7402 4.257
+          8.63379 -17.8228 4.257
+          8.63379 -17.8228 4.03319
+          8.63379 -17.8228 4.03319
+          8.66211 -18.7402 4.03319
+          8.66211 -18.7402 4.257
+          16.8251 -18.4854 4.257
+          8.66211 -18.7402 4.257
+          8.66211 -18.7402 4.03319
+          8.66211 -18.7402 4.03319
+          16.8251 -18.4854 4.03319
+          16.8251 -18.4854 4.257
+          16.7957 -17.5371 4.257
+          16.8251 -18.4854 4.257
+          16.8251 -18.4854 4.03319
+          16.8251 -18.4854 4.03319
+          16.7957 -17.5371 4.03319
+          16.7957 -17.5371 4.257
+          39.4213 -3.39111 4.257
+          40.2922 -3.35693 4.257
+          40.2922 -3.35693 4.03319
+          40.2922 -3.35693 4.03319
+          39.4213 -3.39111 4.03319
+          39.4213 -3.39111 4.257
+          39.7065 -11.5513 4.257
+          39.4213 -3.39111 4.257
+          39.4213 -3.39111 4.03319
+          39.4213 -3.39111 4.03319
+          39.7065 -11.5513 4.03319
+          39.7065 -11.5513 4.257
+          40.618 -11.5156 4.257
+          39.7065 -11.5513 4.257
+          39.7065 -11.5513 4.03319
+          39.7065 -11.5513 4.03319
+          40.618 -11.5156 4.03319
+          40.618 -11.5156 4.257
+          40.2922 -3.35693 4.257
+          40.618 -11.5156 4.257
+          40.618 -11.5156 4.03319
+          40.618 -11.5156 4.03319
+          40.2922 -3.35693 4.03319
+          40.2922 -3.35693 4.257
+          39.7332 14.5737 4.257
+          39.9521 6.61523 4.257
+          39.9521 6.61523 4.03319
+          39.9521 6.61523 4.03319
+          39.733 14.5737 4.03319
+          39.7332 14.5737 4.257
+          38.7939 14.5479 4.257
+          39.7332 14.5737 4.257
+          39.733 14.5737 4.03319
+          39.733 14.5737 4.03319
+          38.7939 14.5479 4.03319
+          38.7939 14.5479 4.257
+          39.0723 6.59033 4.257
+          38.7939 14.5479 4.257
+          38.7939 14.5479 4.03319
+          38.7939 14.5479 4.03319
+          39.0723 6.59033 4.03319
+          39.0723 6.59033 4.257
+          39.9521 6.61523 4.257
+          39.0723 6.59033 4.257
+          39.0723 6.59033 4.03319
+          39.0723 6.59033 4.03319
+          39.9521 6.61523 4.03319
+          39.9521 6.61523 4.257
+          7.25598 18.6968 4.03319
+          7.23108 19.5581 4.03319
+          15.474 19.7896 4.03319
+          15.474 19.7896 4.03319
+          15.4961 18.9858 4.03319
+          7.25598 18.6968 4.03319
+          -22.6833 17.6509 4.03319
+          -22.7061 18.5322 4.03319
+          -14.55 18.7441 4.03319
+          -14.55 18.7441 4.03319
+          -14.5289 17.9351 4.03319
+          -22.6833 17.6509 4.03319
+          -39.4039 3.66211 4.03319
+          -40.3511 3.63184 4.03319
+          -40.618 11.8706 4.03319
+          -40.618 11.8706 4.03319
+          -39.6921 11.8994 4.03319
+          -39.4039 3.66211 4.03319
+          -38.7712 -14.4307 4.03319
+          -39.826 -14.4634 4.03319
+          -40.0922 -6.14697 4.03319
+          -40.0922 -6.14697 4.03319
+          -39.0621 -6.11426 4.03319
+          -38.7712 -14.4307 4.03319
+          -13.234 -19.4443 4.03319
+          -21.3781 -19.7939 4.03319
+          -21.4161 -18.873 4.03319
+          -21.4161 -18.873 4.03319
+          -13.2709 -18.5889 4.03319
+          -13.234 -19.4443 4.03319
+          16.8251 -18.4854 4.03319
+          8.66211 -18.7402 4.03319
+          8.63379 -17.8228 4.03319
+          8.63379 -17.8228 4.03319
+          16.7957 -17.5371 4.03319
+          16.8251 -18.4854 4.03319
+          40.618 -11.5156 4.03319
+          39.7065 -11.5513 4.03319
+          39.4213 -3.39111 4.03319
+          39.4213 -3.39111 4.03319
+          40.2922 -3.35693 4.03319
+          40.618 -11.5156 4.03319
+          39.0723 6.59033 4.03319
+          38.7939 14.5479 4.03319
+          39.733 14.5737 4.03319
+          39.733 14.5737 4.03319
+          39.9521 6.61523 4.03319
+          39.0723 6.59033 4.03319
+        }
+        NormalBinding PER_VERTEX
+        NormalArray Vec3Array 240
+        {
+          0.999622 0.0274868 0
+          0.999622 0.0274868 0
+          0.999622 0.0274868 0
+          0.999622 0.0274868 0
+          0.999622 0.0274868 0
+          0.999622 0.0274868 0
+          -0.028162 0.999603 0
+          -0.028162 0.999603 0
+          -0.028162 0.999603 0
+          -0.028162 0.999603 0
+          -0.028162 0.999603 0
+          -0.028162 0.999603 0
+          -0.999581 -0.0289403 -0
+          -0.999581 -0.0289403 -0
+          -0.999581 -0.0289403 -0
+          -0.999581 -0.0289408 -2.07647e-006
+          -0.999581 -0.0289408 -2.07647e-006
+          -0.999581 -0.0289408 -2.07647e-006
+          0.0349664 -0.999389 -7.17051e-005
+          0.0349664 -0.999389 -7.17051e-005
+          0.0349664 -0.999389 -7.17051e-005
+          0.0349644 -0.999389 0
+          0.0349644 -0.999389 0
+          0.0349644 -0.999389 0
+          0.999657 0.0261767 0
+          0.999657 0.0261767 0
+          0.999657 0.0261767 0
+          0.999657 0.0261767 0
+          0.999657 0.0261767 0
+          0.999657 0.0261767 0
+          -0.0259758 0.999663 0
+          -0.0259758 0.999663 0
+          -0.0259758 0.999663 0
+          -0.0259738 0.999663 7.17249e-005
+          -0.0259738 0.999663 7.17249e-005
+          -0.0259738 0.999663 7.17249e-005
+          -0.999667 -0.0258102 -1.85185e-006
+          -0.999667 -0.0258102 -1.85185e-006
+          -0.999667 -0.0258102 -1.85185e-006
+          -0.999667 -0.0258097 0
+          -0.999667 -0.0258097 0
+          -0.999667 -0.0258097 0
+          0.0349479 -0.999389 0
+          0.0349479 -0.999389 0
+          0.0349479 -0.999389 0
+          0.0349479 -0.999389 0
+          0.0349479 -0.999389 0
+          0.0349479 -0.999389 0
+          -0.0314776 0.999504 0
+          -0.0314776 0.999504 0
+          -0.0314776 0.999504 0
+          -0.0314776 0.999504 0
+          -0.0314776 0.999504 0
+          -0.0314776 0.999504 0
+          -0.999475 -0.0323908 -0
+          -0.999475 -0.0323908 -0
+          -0.999475 -0.0323908 -0
+          -0.999475 -0.0323904 1.79278e-005
+          -0.999475 -0.0323904 1.79278e-005
+          -0.999475 -0.0323904 1.79278e-005
+          0.0326193 -0.999468 -5.851e-007
+          0.0326193 -0.999468 -5.851e-007
+          0.0326193 -0.999468 -5.851e-007
+          0.0326192 -0.999468 0
+          0.0326192 -0.999468 0
+          0.0326192 -0.999468 0
+          0.999389 0.0349658 0
+          0.999389 0.0349658 0
+          0.999389 0.0349658 0
+          0.999389 0.0349658 0
+          0.999389 0.0349658 0
+          0.999389 0.0349658 0
+          -0.0320055 0.999488 0
+          -0.0320055 0.999488 0
+          -0.0320055 0.999488 0
+          -0.0320055 0.999488 0
+          -0.0320055 0.999488 0
+          -0.0320055 0.999488 0
+          -0.999489 -0.0319775 -0
+          -0.999489 -0.0319775 -0
+          -0.999489 -0.0319775 -0
+          -0.999489 -0.0319771 1.79281e-005
+          -0.999489 -0.0319771 1.79281e-005
+          -0.999489 -0.0319771 1.79281e-005
+          0.0312008 -0.999513 -5.59655e-007
+          0.0312008 -0.999513 -5.59655e-007
+          0.0312008 -0.999513 -5.59655e-007
+          0.0312007 -0.999513 0
+          0.0312007 -0.999513 0
+          0.0312007 -0.999513 0
+          0.999389 0.0349535 0
+          0.999389 0.0349535 0
+          0.999389 0.0349535 0
+          0.999389 0.0349535 0
+          0.999389 0.0349535 0
+          0.999389 0.0349535 0
+          -0.0348852 0.999391 1.25149e-006
+          -0.0348852 0.999391 1.25149e-006
+          -0.0348852 0.999391 1.25149e-006
+          -0.0348862 0.999391 -3.58526e-005
+          -0.0348862 0.999391 -3.58526e-005
+          -0.0348862 0.999391 -3.58526e-005
+          -0.99915 -0.0412335 1.47923e-006
+          -0.99915 -0.0412335 1.47923e-006
+          -0.99915 -0.0412335 1.47923e-006
+          -0.99915 -0.0412252 3.58439e-005
+          -0.99915 -0.0412252 3.58439e-005
+          -0.99915 -0.0412252 3.58439e-005
+          0.0429081 -0.999079 -1.5393e-006
+          0.0429081 -0.999079 -1.5393e-006
+          0.0429081 -0.999079 -1.5393e-006
+          0.0429061 -0.999079 7.1683e-005
+          0.0429061 -0.999079 7.1683e-005
+          0.0429061 -0.999079 7.1683e-005
+          0.999069 0.0431419 -3.09538e-006
+          0.999069 0.0431419 -3.09538e-006
+          0.999069 0.0431419 -3.09538e-006
+          0.999069 0.0431504 -3.5841e-005
+          0.999069 0.0431504 -3.5841e-005
+          0.999069 0.0431504 -3.5841e-005
+          -0.0350085 0.999387 0
+          -0.0350085 0.999387 0
+          -0.0350085 0.999387 0
+          -0.0350095 0.999387 -3.52245e-005
+          -0.0350095 0.999387 -3.52245e-005
+          -0.0350095 0.999387 -3.52245e-005
+          -0.999523 -0.0308781 1.90364e-005
+          -0.999523 -0.0308781 1.90364e-005
+          -0.999523 -0.0308781 1.90364e-005
+          -0.999523 -0.0308828 0
+          -0.999523 -0.0308828 0
+          -0.999523 -0.0308828 0
+          0.0312461 -0.999512 0
+          0.0312461 -0.999512 0
+          0.0312461 -0.999512 0
+          0.0312451 -0.999512 3.58569e-005
+          0.0312451 -0.999512 3.58569e-005
+          0.0312451 -0.999512 3.58569e-005
+          0.99952 0.030965 -1.11085e-006
+          0.99952 0.030965 -1.11085e-006
+          0.99952 0.030965 -1.11085e-006
+          0.999521 0.0309647 0
+          0.999521 0.0309647 0
+          0.999521 0.0309647 0
+          -0.0389666 0.999241 2.79581e-006
+          -0.0389666 0.999241 2.79581e-006
+          -0.0389666 0.999241 2.79581e-006
+          -0.0389854 0.99924 -7.0296e-005
+          -0.0389854 0.99924 -7.0296e-005
+          -0.0389854 0.99924 -7.0296e-005
+          -0.999389 -0.0349475 3.836e-005
+          -0.999389 -0.0349475 3.836e-005
+          -0.999389 -0.0349475 3.836e-005
+          -0.999389 -0.0349505 -7.1705e-005
+          -0.999389 -0.0349505 -7.1705e-005
+          -0.999389 -0.0349505 -7.1705e-005
+          0.0389071 -0.999243 2.79154e-006
+          0.0389071 -0.999243 2.79154e-006
+          0.0389071 -0.999243 2.79154e-006
+          0.0388902 -0.999244 7.16947e-005
+          0.0388902 -0.999244 7.16947e-005
+          0.0388902 -0.999244 7.16947e-005
+          0.999203 0.0399097 -2.86348e-006
+          0.999203 0.0399097 -2.86348e-006
+          0.999203 0.0399097 -2.86348e-006
+          0.999203 0.0399116 -7.16917e-005
+          0.999203 0.0399116 -7.16917e-005
+          0.999203 0.0399116 -7.16917e-005
+          0.999621 0.0275155 0
+          0.999621 0.0275155 0
+          0.999621 0.0275155 0
+          0.999621 0.0275165 -3.58609e-005
+          0.999621 0.0275165 -3.58609e-005
+          0.999621 0.0275165 -3.58609e-005
+          -0.0284376 0.999596 1.02018e-006
+          -0.0284376 0.999596 1.02018e-006
+          -0.0284376 0.999596 1.02018e-006
+          -0.0284378 0.999596 0
+          -0.0284378 0.999596 0
+          -0.0284378 0.999596 0
+          -0.999389 -0.034965 -0
+          -0.999389 -0.034965 -0
+          -0.999389 -0.034965 -0
+          -0.999389 -0.0349639 3.83611e-005
+          -0.999389 -0.0349639 3.83611e-005
+          -0.999389 -0.0349639 3.83611e-005
+          0.0284207 -0.999596 7.07004e-005
+          0.0284207 -0.999596 7.07004e-005
+          0.0284207 -0.999596 7.07004e-005
+          0.0284387 -0.999596 0
+          0.0284387 -0.999596 0
+          0.0284387 -0.999596 0
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+          0 0 -1
+        }
+        TexCoordArray 0 Vec2Array 240
+        {
+          6.8588 0.537301
+          6.59057 0.537301
+          6.59057 0.462699
+          6.59057 0.462699
+          6.8588 0.462699
+          6.8588 0.537301
+          -2.16307 0.537301
+          -4.91169 0.537301
+          -4.91169 0.462699
+          -4.91169 0.462699
+          -2.16307 0.462699
+          -2.16307 0.537301
+          -5.59546 0.537301
+          -5.8824 0.537301
+          -5.8824 0.462699
+          -5.8824 0.462699
+          -5.59546 0.462699
+          -5.59546 0.537301
+          5.90921 0.537301
+          3.16084 0.537301
+          3.16084 0.462699
+          3.16084 0.462699
+          5.90921 0.462699
+          5.90921 0.537301
+          6.87817 0.537301
+          6.60848 0.537301
+          6.60848 0.462699
+          6.60848 0.462699
+          6.87817 0.462699
+          6.87817 0.537301
+          7.82179 0.537301
+          5.10235 0.537301
+          5.10235 0.462699
+          5.10235 0.462699
+          7.82179 0.462699
+          7.82179 0.537301
+          -5.61336 0.537301
+          -5.90747 0.537301
+          -5.90747 0.462699
+          -5.90747 0.462699
+          -5.61336 0.462699
+          -5.61336 0.537301
+          -4.1052 0.537301
+          -6.82501 0.537301
+          -6.82501 0.462699
+          -6.82501 0.462699
+          -4.1052 0.462699
+          -4.1052 0.537301
+          13.87 0.537301
+          13.5612 0.537301
+          13.5612 0.462699
+          13.5612 0.462699
+          13.87 0.462699
+          13.87 0.537301
+          -1.16008 0.537301
+          -3.90763 0.537301
+          -3.90763 0.462699
+          -3.90763 0.462699
+          -1.16008 0.462699
+          -1.16008 0.537301
+          -12.5661 0.537301
+          -12.882 0.537301
+          -12.882 0.462699
+          -12.882 0.462699
+          -12.5661 0.462699
+          -12.5661 0.537301
+          4.90601 0.537301
+          2.15878 0.537301
+          2.15878 0.462699
+          2.15878 0.462699
+          4.90601 0.462699
+          4.90601 0.537301
+          13.9155 0.537301
+          13.572 0.537301
+          13.572 0.462699
+          13.572 0.462699
+          13.9155 0.462699
+          13.9155 0.537301
+          4.8741 0.537301
+          2.1005 0.537301
+          2.1005 0.462699
+          2.1005 0.462699
+          4.8741 0.462699
+          4.8741 0.537301
+          -12.5769 0.537301
+          -12.9287 0.537301
+          -12.9287 0.462699
+          -12.9287 0.462699
+          -12.5769 0.462699
+          -12.5769 0.537301
+          -1.10213 0.537301
+          -3.87606 0.537301
+          -3.87606 0.462699
+          -3.87606 0.462699
+          -1.10213 0.462699
+          -1.10213 0.537301
+          7.8502 0.537301
+          5.13348 0.537301
+          5.13348 0.462699
+          5.13348 0.462699
+          7.8502 0.462699
+          7.8502 0.537301
+          6.87557 0.537301
+          6.56828 0.537301
+          6.56828 0.462699
+          6.56828 0.462699
+          6.87557 0.462699
+          6.87557 0.537301
+          -4.13165 0.537301
+          -6.84881 0.537301
+          -6.84882 0.462699
+          -6.84882 0.462699
+          -4.13165 0.462699
+          -4.13165 0.537301
+          -5.57332 0.537301
+          -5.85881 0.537301
+          -5.85881 0.462699
+          -5.85881 0.462699
+          -5.57332 0.462699
+          -5.57332 0.537301
+          -2.17251 0.537301
+          -4.8948 0.537301
+          -4.8948 0.462699
+          -4.8948 0.462699
+          -2.17251 0.462699
+          -2.17251 0.537301
+          6.8925 0.537301
+          6.58651 0.537301
+          6.58651 0.462699
+          6.58651 0.462699
+          6.8925 0.462699
+          6.8925 0.537301
+          5.89297 0.537301
+          3.17072 0.537301
+          3.17072 0.462699
+          3.17072 0.462699
+          5.89297 0.462699
+          5.89297 0.537301
+          -5.59123 0.537301
+          -5.90747 0.537301
+          -5.90748 0.462699
+          -5.90748 0.462699
+          -5.59123 0.462699
+          -5.59123 0.537301
+          -12.6048 0.537301
+          -12.8953 0.537301
+          -12.8953 0.462699
+          -12.8953 0.462699
+          -12.6048 0.462699
+          -12.6048 0.537301
+          4.87785 0.537301
+          2.15634 0.537301
+          2.15634 0.462699
+          2.15634 0.462699
+          4.87785 0.462699
+          4.87785 0.537301
+          13.904 0.537301
+          13.5999 0.537301
+          13.5999 0.462699
+          13.5999 0.462699
+          13.904 0.462699
+          13.904 0.537301
+          -1.15568 0.537301
+          -3.8772 0.537301
+          -3.8772 0.462699
+          -3.8772 0.462699
+          -1.15568 0.462699
+          -1.15568 0.537301
+          4.82413 0.537301
+          2.17065 0.537301
+          2.17065 0.462699
+          2.17065 0.462699
+          4.82413 0.462699
+          4.82413 0.537301
+          -12.6155 0.537301
+          -12.9287 0.537301
+          -12.9287 0.462699
+          -12.9287 0.462699
+          -12.6155 0.462699
+          -12.6155 0.537301
+          -1.17309 0.537301
+          -3.82674 0.537301
+          -3.82674 0.462699
+          -3.82674 0.462699
+          -1.17309 0.462699
+          -1.17309 0.537301
+          13.9042 0.537301
+          13.6108 0.537301
+          13.6108 0.462699
+          13.6108 0.462699
+          13.9042 0.462699
+          13.9042 0.537301
+          -2.16084 6.59546
+          -2.16307 6.8824
+          -4.91169 6.8588
+          -4.91169 6.8588
+          -4.90921 6.59057
+          -2.16084 6.59546
+          7.82501 6.61336
+          7.82179 6.90747
+          5.10235 6.87817
+          5.10235 6.87817
+          5.1052 6.60848
+          7.82501 6.61336
+          13.5661 2.15878
+          13.882 2.16008
+          13.87 4.90763
+          13.87 4.90763
+          13.5612 4.90601
+          13.5661 2.15878
+          13.5769 -3.87606
+          13.9287 -3.8741
+          13.9155 -1.1005
+          13.9155 -1.1005
+          13.572 -1.10213
+          13.5769 -3.87606
+          5.13165 -5.85881
+          7.84882 -5.87557
+          7.8502 -5.56828
+          7.8502 -5.56828
+          5.13348 -5.57332
+          5.13165 -5.85881
+          -4.89297 -5.90748
+          -2.17072 -5.8925
+          -2.17251 -5.58651
+          -2.17251 -5.58651
+          -4.8948 -5.59123
+          -4.89297 -5.90748
+          -12.904 -3.8772
+          -12.5999 -3.87785
+          -12.6048 -1.15634
+          -12.6048 -1.15634
+          -12.8953 -1.15568
+          -12.904 -3.8772
+          -12.6108 2.17309
+          -12.6155 4.82674
+          -12.9287 4.82413
+          -12.9287 4.82413
+          -12.9042 2.17065
+          -12.6108 2.17309
+        }
+        TexCoordArray 1 Vec2Array 240
+        {
+          0.707968 0.226402
+          0.707968 0.216402
+          0.709169 0.216402
+          0.709169 0.216402
+          0.709169 0.226402
+          0.707968 0.226402
+          0.644843 0.4285
+          0.644843 0.326033
+          0.646043 0.326033
+          0.646043 0.326033
+          0.646043 0.4285
+          0.644843 0.4285
+          0.692711 0.327578
+          0.692711 0.31688
+          0.693911 0.31688
+          0.693911 0.31688
+          0.693911 0.327577
+          0.692711 0.327578
+          0.645671 0.53415
+          0.645671 0.431696
+          0.646871 0.431696
+          0.646871 0.431696
+          0.646871 0.53415
+          0.645671 0.53415
+          0.703605 0.330894
+          0.703605 0.320839
+          0.704805 0.320839
+          0.704805 0.320839
+          0.704805 0.330894
+          0.703605 0.330894
+          0.688348 0.418262
+          0.688348 0.31688
+          0.689548 0.31688
+          0.689548 0.31688
+          0.689548 0.418262
+          0.688348 0.418262
+          0.673109 0.439954
+          0.673109 0.42899
+          0.674309 0.42899
+          0.674309 0.42899
+          0.674309 0.439954
+          0.673109 0.439954
+          0.673109 0.423809
+          0.673109 0.322419
+          0.674309 0.322419
+          0.674309 0.322419
+          0.674309 0.423809
+          0.673109 0.423809
+          0.654992 0.43505
+          0.654992 0.423538
+          0.656192 0.423538
+          0.656192 0.423538
+          0.656192 0.43505
+          0.654992 0.43505
+          0.703605 0.213239
+          0.703605 0.110814
+          0.704805 0.110814
+          0.704805 0.110814
+          0.704805 0.213239
+          0.703605 0.213239
+          0.723844 0.0152739
+          0.723844 0.00349842
+          0.725044 0.00349837
+          0.725044 0.00349837
+          0.725044 0.0152739
+          0.723844 0.0152739
+          0.719481 0.105911
+          0.719481 0.00349837
+          0.720681 0.00349837
+          0.720681 0.00349837
+          0.720681 0.105911
+          0.719481 0.105911
+          0.540228 0.995288
+          0.540228 0.982482
+          0.541428 0.982482
+          0.541428 0.982482
+          0.541428 0.995288
+          0.540228 0.995288
+          0.688348 0.313717
+          0.688348 0.210321
+          0.689548 0.210321
+          0.689548 0.210321
+          0.689548 0.313717
+          0.688348 0.313717
+          0.495606 0.995608
+          0.495606 0.982494
+          0.496807 0.982494
+          0.496807 0.982494
+          0.496807 0.995608
+          0.495606 0.995608
+          0.668746 0.425827
+          0.668746 0.322419
+          0.669946 0.322419
+          0.669946 0.322419
+          0.669946 0.425827
+          0.668746 0.425827
+          0.703605 0.317676
+          0.703605 0.216402
+          0.704805 0.216402
+          0.704805 0.216402
+          0.704805 0.317676
+          0.703605 0.317676
+          0.629471 0.759573
+          0.629471 0.748117
+          0.630671 0.748117
+          0.630671 0.748117
+          0.630671 0.759573
+          0.629471 0.759573
+          0.692711 0.311614
+          0.692711 0.210321
+          0.693911 0.210321
+          0.693911 0.210321
+          0.693911 0.311614
+          0.692711 0.311614
+          0.697074 0.220964
+          0.697074 0.210321
+          0.698274 0.210321
+          0.698274 0.210321
+          0.698274 0.220964
+          0.697074 0.220964
+          0.629471 0.744954
+          0.629471 0.643472
+          0.630671 0.643472
+          0.630671 0.643472
+          0.630671 0.744954
+          0.629471 0.744954
+          0.633834 0.654879
+          0.633834 0.643472
+          0.635034 0.643472
+          0.635034 0.643472
+          0.635034 0.654879
+          0.633834 0.654879
+          0.650629 0.525021
+          0.650629 0.423538
+          0.651829 0.423538
+          0.651829 0.423538
+          0.651829 0.525021
+          0.650629 0.525021
+          0.584849 0.929848
+          0.584849 0.918059
+          0.586049 0.918059
+          0.586049 0.918059
+          0.586049 0.929848
+          0.584849 0.929848
+          0.688348 0.432255
+          0.688348 0.421425
+          0.689548 0.421425
+          0.689548 0.421425
+          0.689548 0.432256
+          0.688348 0.432255
+          0.668746 0.530443
+          0.668746 0.42899
+          0.669946 0.42899
+          0.669946 0.42899
+          0.669946 0.530443
+          0.668746 0.530443
+          0.668746 0.54494
+          0.668746 0.533607
+          0.669946 0.533607
+          0.669946 0.533607
+          0.669946 0.54494
+          0.668746 0.54494
+          0.643576 0.63921
+          0.643576 0.537756
+          0.644776 0.537756
+          0.644776 0.537756
+          0.644776 0.63921
+          0.643576 0.63921
+          0.719481 0.207995
+          0.719481 0.109074
+          0.720681 0.109074
+          0.720681 0.109074
+          0.720681 0.207995
+          0.719481 0.207995
+          0.650629 0.539859
+          0.650629 0.528184
+          0.651829 0.528184
+          0.651829 0.528184
+          0.651829 0.539859
+          0.650629 0.539859
+          0.707968 0.209737
+          0.707968 0.110814
+          0.709169 0.110814
+          0.709169 0.110814
+          0.709169 0.209737
+          0.707968 0.209737
+          0.677472 0.333358
+          0.677472 0.32242
+          0.678672 0.322419
+          0.678672 0.322419
+          0.678672 0.333358
+          0.677472 0.333358
+          0.70404 0.00349837
+          0.714736 0.00360821
+          0.713604 0.106069
+          0.713604 0.106069
+          0.703605 0.105952
+          0.70404 0.00349837
+          0.669178 0.216155
+          0.680141 0.216302
+          0.678799 0.317675
+          0.678799 0.317675
+          0.668746 0.317544
+          0.669178 0.216155
+          0.641246 0.428533
+          0.629471 0.428455
+          0.630169 0.326033
+          0.630169 0.326033
+          0.64168 0.326122
+          0.641246 0.428533
+          0.663742 0.211945
+          0.650629 0.21184
+          0.651376 0.108446
+          0.651376 0.108446
+          0.664181 0.108539
+          0.663742 0.211945
+          0.629846 0.533011
+          0.629471 0.431719
+          0.640926 0.431696
+          0.640926 0.431696
+          0.640488 0.532969
+          0.629846 0.533011
+          0.668746 0.211313
+          0.669554 0.109834
+          0.680961 0.109929
+          0.680961 0.109929
+          0.680535 0.21141
+          0.668746 0.211313
+          0.699681 0.207158
+          0.688348 0.207154
+          0.688779 0.105702
+          0.688779 0.105702
+          0.699609 0.105704
+          0.699681 0.207158
+          0.688348 0.102421
+          0.688767 0.00349837
+          0.700442 0.00362414
+          0.700442 0.00362414
+          0.699285 0.102539
+          0.688348 0.102421
+        }
+      }
+    }
+  }
+}

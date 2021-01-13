@@ -1,0 +1,30 @@
+newmtl material_20
+       Ka 0.694118 0.694118 0.694118 1
+       Kd 1 1 1 1
+       Ks 0 0 0 1
+       map_Kd i94b_h63_b.png
+
+newmtl material_19
+       Ka 0.584314 0.584314 0.584314 1
+       Kd 1 1 1 1
+       Ks 0 0 0 1
+       map_Kd i9400040_j.png
+
+newmtl material_18
+       Ka 0.584314 0.584314 0.584314 1
+       Kd 1 1 1 1
+       Ks 0 0 0 1
+       map_Kd i9400039_j.png
+
+newmtl material_16
+       Ka 0.584314 0.584314 0.584314 1
+       Kd 1 1 1 1
+       Ks 0 0 0 1
+       map_Kd i9400038_j.png
+
+newmtl material_17
+       Ka 0.584314 0.584314 0.584314 1
+       Kd 1 1 1 1
+       Ks 0 0 0 1
+       map_Kd i9400037_j.png
+

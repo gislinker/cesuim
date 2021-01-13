@@ -1,0 +1,72 @@
+newmtl material_128
+       Ka 0.694118 0.694118 0.694118 1
+       Kd 1 1 1 1
+       Ks 0 0 0 1
+       map_Kd i95_h90_b.png
+
+newmtl material_122
+       Ka 0.694118 0.694118 0.694118 1
+       Kd 1 1 1 1
+       Ks 0 0 0 1
+       map_Kd i95_h96_b.png
+
+newmtl material_123
+       Ka 0.694118 0.694118 0.694118 1
+       Kd 1 1 1 1
+       Ks 0 0 0 1
+       map_Kd i95_h95_b.png
+
+newmtl material_126
+       Ka 0.694118 0.694118 0.694118 1
+       Kd 1 1 1 1
+       Ks 0 0 0 1
+       map_Kd i95_h92_b.png
+
+newmtl material_127
+       Ka 0.694118 0.694118 0.694118 1
+       Kd 1 1 1 1
+       Ks 0 0 0 1
+       map_Kd i95_h91_b.png
+
+newmtl material_120
+       Ka 0.694118 0.694118 0.694118 1
+       Kd 1 1 1 1
+       Ks 0 0 0 1
+       map_Kd i95_h98_b.png
+
+newmtl material_121
+       Ka 0.694118 0.694118 0.694118 1
+       Kd 1 1 1 1
+       Ks 0 0 0 1
+       map_Kd i95_h97_b.png
+
+newmtl material_124
+       Ka 0.694118 0.694118 0.694118 1
+       Kd 1 1 1 1
+       Ks 0 0 0 1
+       map_Kd i95_h94_b.png
+
+newmtl material_125
+       Ka 0.694118 0.694118 0.694118 1
+       Kd 1 1 1 1
+       Ks 0 0 0 1
+       map_Kd i95_h93_b.png
+
+newmtl material_129
+       Ka 0.584314 0.584314 0.584314 1
+       Kd 1 1 1 1
+       Ks 0 0 0 1
+       map_Kd i9500082_j.png
+
+newmtl material_118
+       Ka 0.584314 0.584314 0.584314 1
+       Kd 1 1 1 1
+       Ks 0 0 0 1
+       map_Kd i9500141_j.png
+
+newmtl material_119
+       Ka 0.584314 0.584314 0.584314 1
+       Kd 1 1 1 1
+       Ks 0 0 0 1
+       map_Kd i9500140_j.png
+

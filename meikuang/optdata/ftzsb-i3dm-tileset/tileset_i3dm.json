@@ -1,0 +1,635 @@
+{
+   "asset" : {
+      "gltfUpAxis" : "Z",
+      "tilesetVersion" : "allmap-1.0",
+      "version" : "0.0"
+   },
+   "geometricError" : 5,
+   "root" : {
+      "boundingVolume" : {
+         "region" : [
+            2.031538387530591,
+            0.6981009872618942,
+            2.031591595145871,
+            0.6981572891943396,
+            -0.1827300488948822,
+            28.36250114440918
+         ]
+      },
+      "children" : [
+         {
+            "boundingVolume" : {
+               "region" : [
+                  2.031545408346258,
+                  0.6981545498006095,
+                  2.03158919695670,
+                  0.6981549944278198,
+                  0.07632846319099934,
+                  1.79527559890
+               ]
+            },
+            "children" : [
+               {
+                  "boundingVolume" : {
+                     "region" : [
+                        2.031545408346258,
+                        0.6981545498006095,
+                        2.03158919695670,
+                        0.6981549944278198,
+                        0.07632846319099934,
+                        1.79527559890
+                     ]
+                  },
+                  "content" : {
+                     "url" : "./L2/FTZBZSB-DZX-056-GEODE.i3dm"
+                  },
+                  "geometricError" : 1.034682631492615,
+                  "refine" : "REPLACE"
+               }
+            ],
+            "content" : {
+               "url" : "FTZBZSB-DZX-056-GEODE.i3dm"
+            },
+            "geometricError" : 2.069365262985229,
+            "model" : "FTZBZSB-DZX-056-GEODE",
+            "refine" : "REPLACE"
+         },
+         {
+            "boundingVolume" : {
+               "region" : [
+                  2.031555474314938,
+                  0.6981412111920210,
+                  2.031569078724023,
+                  0.6981413968417748,
+                  0.08556697558593684,
+                  1.588680461389160
+               ]
+            },
+            "children" : [
+               {
+                  "boundingVolume" : {
+                     "region" : [
+                        2.031555474314938,
+                        0.6981412111920210,
+                        2.031569078724023,
+                        0.6981413968417748,
+                        0.08556697558593684,
+                        1.588680461389160
+                     ]
+                  },
+                  "content" : {
+                     "url" : "./L2/FTZBZSB-DZX-090-GEODE.i3dm"
+                  },
+                  "geometricError" : 0.3645413517951965,
+                  "refine" : "REPLACE"
+               }
+            ],
+            "content" : {
+               "url" : "FTZBZSB-DZX-090-GEODE.i3dm"
+            },
+            "geometricError" : 0.7290827035903931,
+            "model" : "FTZBZSB-DZX-090-GEODE",
+            "refine" : "REPLACE"
+         },
+         {
+            "boundingVolume" : {
+               "region" : [
+                  2.031549381106224,
+                  0.6981359139611903,
+                  2.031571662096499,
+                  0.6981361976166931,
+                  0.1925330124511713,
+                  2.184054380468750
+               ]
+            },
+            "children" : [
+               {
+                  "boundingVolume" : {
+                     "region" : [
+                        2.031549381106224,
+                        0.6981359139611903,
+                        2.031571662096499,
+                        0.6981361976166931,
+                        0.1925330124511713,
+                        2.184054380468750
+                     ]
+                  },
+                  "content" : {
+                     "url" : "./L2/FTZBZSB-DZX-132-GEODE.i3dm"
+                  },
+                  "geometricError" : 0.5571764111518860,
+                  "refine" : "REPLACE"
+               }
+            ],
+            "content" : {
+               "url" : "FTZBZSB-DZX-132-GEODE.i3dm"
+            },
+            "geometricError" : 1.114352822303772,
+            "model" : "FTZBZSB-DZX-132-GEODE",
+            "refine" : "REPLACE"
+         },
+         {
+            "boundingVolume" : {
+               "region" : [
+                  2.031559037707816,
+                  0.6981090705241650,
+                  2.031569864052826,
+                  0.6981268339457882,
+                  0.2000129999999994,
+                  1.560012999999999
+               ]
+            },
+            "children" : [
+               {
+                  "boundingVolume" : {
+                     "region" : [
+                        2.031559037707816,
+                        0.6981090705241650,
+                        2.031569864052826,
+                        0.6981268339457882,
+                        0.2000129999999994,
+                        1.560012999999999
+                     ]
+                  },
+                  "content" : {
+                     "url" : "./L2/FTZBZSB-DZX-184-GEODE.i3dm"
+                  },
+                  "geometricError" : 0.3028635382652283,
+                  "refine" : "REPLACE"
+               }
+            ],
+            "content" : {
+               "url" : "FTZBZSB-DZX-184-GEODE.i3dm"
+            },
+            "geometricError" : 0.6057270765304565,
+            "model" : "FTZBZSB-DZX-184-GEODE",
+            "refine" : "REPLACE"
+         },
+         {
+            "boundingVolume" : {
+               "region" : [
+                  2.031555099057996,
+                  0.6981090385017145,
+                  2.031571168968242,
+                  0.6981296633262931,
+                  0.1929227674527227,
+                  2.016817768973688
+               ]
+            },
+            "children" : [
+               {
+                  "boundingVolume" : {
+                     "region" : [
+                        2.031555099057996,
+                        0.6981090385017145,
+                        2.031571168968242,
+                        0.6981296633262931,
+                        0.1929227674527227,
+                        2.016817768973688
+                     ]
+                  },
+                  "content" : {
+                     "url" : "./L2/FTZBZSB-DZX-186-GEODE.i3dm"
+                  },
+                  "geometricError" : 0.4192797243595123,
+                  "refine" : "REPLACE"
+               }
+            ],
+            "content" : {
+               "url" : "FTZBZSB-DZX-186-GEODE.i3dm"
+            },
+            "geometricError" : 0.8385594487190247,
+            "model" : "FTZBZSB-DZX-186-GEODE",
+            "refine" : "REPLACE"
+         },
+         {
+            "boundingVolume" : {
+               "region" : [
+                  2.031550511062185,
+                  0.6981356418658815,
+                  2.031572870901011,
+                  0.6981358135053306,
+                  -0.01572601953125052,
+                  2.022314019531249
+               ]
+            },
+            "children" : [
+               {
+                  "boundingVolume" : {
+                     "region" : [
+                        2.031550511062185,
+                        0.6981356418658815,
+                        2.031572870901011,
+                        0.6981358135053306,
+                        -0.01572601953125052,
+                        2.022314019531249
+                     ]
+                  },
+                  "content" : {
+                     "url" : "./L2/FTZBZSB-DZX-216-GEODE.i3dm"
+                  },
+                  "geometricError" : 0.5589269995689392,
+                  "refine" : "REPLACE"
+               }
+            ],
+            "content" : {
+               "url" : "FTZBZSB-DZX-216-GEODE.i3dm"
+            },
+            "geometricError" : 1.117853999137878,
+            "model" : "FTZBZSB-DZX-216-GEODE",
+            "refine" : "REPLACE"
+         },
+         {
+            "boundingVolume" : {
+               "region" : [
+                  2.031550510555296,
+                  0.6981356997069988,
+                  2.031572870395203,
+                  0.6981358713464638,
+                  -0.01572601953125052,
+                  2.022314019531249
+               ]
+            },
+            "children" : [
+               {
+                  "boundingVolume" : {
+                     "region" : [
+                        2.031550510555296,
+                        0.6981356997069988,
+                        2.031572870395203,
+                        0.6981358713464638,
+                        -0.01572601953125052,
+                        2.022314019531249
+                     ]
+                  },
+                  "content" : {
+                     "url" : "./L2/FTZBZSB-DZX-218-GEODE.i3dm"
+                  },
+                  "geometricError" : 0.5589269995689392,
+                  "refine" : "REPLACE"
+               }
+            ],
+            "content" : {
+               "url" : "FTZBZSB-DZX-218-GEODE.i3dm"
+            },
+            "geometricError" : 1.117853999137878,
+            "model" : "FTZBZSB-DZX-218-GEODE",
+            "refine" : "REPLACE"
+         },
+         {
+            "boundingVolume" : {
+               "region" : [
+                  2.031548483304507,
+                  0.6981465509765450,
+                  2.031578673631802,
+                  0.6981531093437020,
+                  0.1280189732099993,
+                  1.88195968530
+               ]
+            },
+            "children" : [
+               {
+                  "boundingVolume" : {
+                     "region" : [
+                        2.031548483304507,
+                        0.6981465509765450,
+                        2.031578673631802,
+                        0.6981531093437020,
+                        0.1280189732099993,
+                        1.88195968530
+                     ]
+                  },
+                  "content" : {
+                     "url" : "./L2/FTZBZSB-DZX-232-GEODE.i3dm"
+                  },
+                  "geometricError" : 0.7327773571014404,
+                  "refine" : "REPLACE"
+               }
+            ],
+            "content" : {
+               "url" : "FTZBZSB-DZX-232-GEODE.i3dm"
+            },
+            "geometricError" : 1.465554714202881,
+            "model" : "FTZBZSB-DZX-232-GEODE",
+            "refine" : "REPLACE"
+         },
+         {
+            "boundingVolume" : {
+               "region" : [
+                  2.031545775268459,
+                  0.6981364534979760,
+                  2.031572359103241,
+                  0.6981428647878450,
+                  -0.05157526171900084,
+                  4.190532193237053
+               ]
+            },
+            "children" : [
+               {
+                  "boundingVolume" : {
+                     "region" : [
+                        2.031545775268459,
+                        0.6981364534979760,
+                        2.031572359103241,
+                        0.6981428647878450,
+                        -0.05157526171900084,
+                        4.190532193237053
+                     ]
+                  },
+                  "content" : {
+                     "url" : "./L2/FTZBZSB-ZZJYZ-0123-GEODE.i3dm"
+                  },
+                  "geometricError" : 0.6527069807052612,
+                  "refine" : "REPLACE"
+               }
+            ],
+            "content" : {
+               "url" : "FTZBZSB-ZZJYZ-0123-GEODE.i3dm"
+            },
+            "geometricError" : 1.305413961410522,
+            "model" : "FTZBZSB-ZZJYZ-0123-GEODE",
+            "refine" : "REPLACE"
+         },
+         {
+            "boundingVolume" : {
+               "region" : [
+                  2.031562726334223,
+                  0.6981356000710167,
+                  2.031565761750363,
+                  0.6981361331824852,
+                  -0.007853497314704083,
+                  3.769460380859124
+               ]
+            },
+            "children" : [
+               {
+                  "boundingVolume" : {
+                     "region" : [
+                        2.031562726334223,
+                        0.6981356000710167,
+                        2.031565761750363,
+                        0.6981361331824852,
+                        -0.007853497314704083,
+                        3.769460380859124
+                     ]
+                  },
+                  "content" : {
+                     "url" : "./L2/FTZBZSB-ZZJYZ-0125-GEODE.i3dm"
+                  },
+                  "geometricError" : 0.1298914700746536,
+                  "refine" : "REPLACE"
+               }
+            ],
+            "content" : {
+               "url" : "FTZBZSB-ZZJYZ-0125-GEODE.i3dm"
+            },
+            "geometricError" : 0.2597829401493073,
+            "model" : "FTZBZSB-ZZJYZ-0125-GEODE",
+            "refine" : "REPLACE"
+         },
+         {
+            "boundingVolume" : {
+               "region" : [
+                  2.031549524139741,
+                  0.6981357433534491,
+                  2.031571960722102,
+                  0.6981359699909381,
+                  -0.08571750488306379,
+                  6.928380292968499
+               ]
+            },
+            "children" : [
+               {
+                  "boundingVolume" : {
+                     "region" : [
+                        2.031549524139741,
+                        0.6981357433534491,
+                        2.031571960722102,
+                        0.6981359699909381,
+                        -0.08571750488306379,
+                        6.928380292968499
+                     ]
+                  },
+                  "content" : {
+                     "url" : "./L2/FTZBZSB-ZZJYZ-0127-GEODE.i3dm"
+                  },
+                  "geometricError" : 0.5606307983398438,
+                  "refine" : "REPLACE"
+               }
+            ],
+            "content" : {
+               "url" : "FTZBZSB-ZZJYZ-0127-GEODE.i3dm"
+            },
+            "geometricError" : 1.121261596679688,
+            "model" : "FTZBZSB-ZZJYZ-0127-GEODE",
+            "refine" : "REPLACE"
+         },
+         {
+            "boundingVolume" : {
+               "region" : [
+                  2.031552471508887,
+                  0.6981496248893185,
+                  2.031583706189101,
+                  0.6981528709947991,
+                  0.01335568885778120,
+                  10.14226068359350
+               ]
+            },
+            "children" : [
+               {
+                  "boundingVolume" : {
+                     "region" : [
+                        2.031552471508887,
+                        0.6981496248893185,
+                        2.031583706189101,
+                        0.6981528709947991,
+                        0.01335568885778120,
+                        10.14226068359350
+                     ]
+                  },
+                  "content" : {
+                     "url" : "./L2/FTZBZSB-ZZJYZ-0160-GEODE.i3dm"
+                  },
+                  "geometricError" : 0.7559637427330017,
+                  "refine" : "REPLACE"
+               }
+            ],
+            "content" : {
+               "url" : "FTZBZSB-ZZJYZ-0160-GEODE.i3dm"
+            },
+            "geometricError" : 1.511927485466003,
+            "model" : "FTZBZSB-ZZJYZ-0160-GEODE",
+            "refine" : "REPLACE"
+         },
+         {
+            "boundingVolume" : {
+               "region" : [
+                  2.031544528294198,
+                  0.6981495643317706,
+                  2.031591649722774,
+                  0.6981529290373391,
+                  0.02711568885778164,
+                  9.556860292968501
+               ]
+            },
+            "children" : [
+               {
+                  "boundingVolume" : {
+                     "region" : [
+                        2.031544528294198,
+                        0.6981495643317706,
+                        2.031591649722774,
+                        0.6981529290373391,
+                        0.02711568885778164,
+                        9.556860292968501
+                     ]
+                  },
+                  "content" : {
+                     "url" : "./L2/FTZBZSB-ZZJYZ-0162-GEODE.i3dm"
+                  },
+                  "geometricError" : 1.108677029609680,
+                  "refine" : "REPLACE"
+               }
+            ],
+            "content" : {
+               "url" : "FTZBZSB-ZZJYZ-0162-GEODE.i3dm"
+            },
+            "geometricError" : 2.217354059219360,
+            "model" : "FTZBZSB-ZZJYZ-0162-GEODE",
+            "refine" : "REPLACE"
+         },
+         {
+            "boundingVolume" : {
+               "region" : [
+                  2.031553223822885,
+                  0.6981054590855164,
+                  2.031575659517228,
+                  0.6981262005646652,
+                  3.970409353293292e-05,
+                  8.966753648203836
+               ]
+            },
+            "children" : [
+               {
+                  "boundingVolume" : {
+                     "region" : [
+                        2.031553223822885,
+                        0.6981054590855164,
+                        2.031575659517228,
+                        0.6981262005646652,
+                        3.970409353293292e-05,
+                        8.966753648203836
+                     ]
+                  },
+                  "content" : {
+                     "url" : "./L2/FTZBZSB-ZZJYZ-058-GEODE.i3dm"
+                  },
+                  "geometricError" : 0.5606111288070679,
+                  "refine" : "REPLACE"
+               }
+            ],
+            "content" : {
+               "url" : "FTZBZSB-ZZJYZ-058-GEODE.i3dm"
+            },
+            "geometricError" : 1.121222257614136,
+            "model" : "FTZBZSB-ZZJYZ-058-GEODE",
+            "refine" : "REPLACE"
+         },
+         {
+            "boundingVolume" : {
+               "region" : [
+                  2.031545145302273,
+                  0.6981486848940220,
+                  2.031591006908783,
+                  0.6981528688065936,
+                  -0.0004065179445878198,
+                  5.056230429687249
+               ]
+            },
+            "children" : [
+               {
+                  "boundingVolume" : {
+                     "region" : [
+                        2.031545145302273,
+                        0.6981486848940220,
+                        2.031591006908783,
+                        0.6981528688065936,
+                        -0.0004065179445878198,
+                        5.056230429687249
+                     ]
+                  },
+                  "content" : {
+                     "url" : "./L2/FTZBZSB-ZZJYZ-093-GEODE.i3dm"
+                  },
+                  "geometricError" : 1.080706715583801,
+                  "refine" : "REPLACE"
+               }
+            ],
+            "content" : {
+               "url" : "FTZBZSB-ZZJYZ-093-GEODE.i3dm"
+            },
+            "geometricError" : 2.161413431167603,
+            "model" : "FTZBZSB-ZZJYZ-093-GEODE",
+            "refine" : "REPLACE"
+         },
+         {
+            "boundingVolume" : {
+               "region" : [
+                  2.031547403118476,
+                  0.6981466594690159,
+                  2.031589129575677,
+                  0.6981548876302007,
+                  1.313949899795532,
+                  1.749143100204467
+               ]
+            },
+            "children" : [
+               {
+                  "boundingVolume" : {
+                     "region" : [
+                        2.031547403118476,
+                        0.6981466594690159,
+                        2.031589129575677,
+                        0.6981548876302007,
+                        1.313949899795532,
+                        1.749143100204467
+                     ]
+                  },
+                  "content" : {
+                     "url" : "./L2/MP-143-GEODE.i3dm"
+                  },
+                  "geometricError" : 0.9888992905616760,
+                  "refine" : "REPLACE"
+               }
+            ],
+            "content" : {
+               "url" : "MP-143-GEODE.i3dm"
+            },
+            "geometricError" : 1.977798581123352,
+            "model" : "MP-143-GEODE",
+            "refine" : "REPLACE"
+         }
+      ],
+      "geometricError" : 5,
+      "refine" : "ADD",
+      "transform" : [
+         -0.8957117602394129,
+         -0.4446351791849278,
+         0,
+         0,
+         0.2858059840108258,
+         -0.5757524213324148,
+         0.7660444431189782,
+         0,
+         -0.3406103082298250,
+         0.6861550165677206,
+         0.6427876096865393,
+         0,
+         -2175469.920457779,
+         4382455.736797864,
+         4077985.572200376,
+         1
+      ]
+   }
+}
+
